@@ -1,0 +1,7 @@
+{
+  "telegramBotToken": "REPLACE_ME",
+  "redis": {
+    "port": "6380"
+  },
+  "mixpanelToken": "REPLACE_ME"
+}

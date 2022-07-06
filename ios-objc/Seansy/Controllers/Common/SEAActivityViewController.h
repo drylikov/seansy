@@ -1,0 +1,2 @@
+@interface SEAActivityViewController : UIActivityViewController
+@end

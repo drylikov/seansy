@@ -1,0 +1,14 @@
+{
+  "redis": {
+    "port": "6380"
+  },
+  "mongodb": {
+    "url": "mongodb://localhost:27017/seansy-api"
+  },
+  "mailgun": {
+    "apiKey": "REPLACE_ME",
+    "domain": "REPLACE_ME",
+    "toEmail": "REPLACE_ME"
+  },
+  "logLevel": "info"
+}

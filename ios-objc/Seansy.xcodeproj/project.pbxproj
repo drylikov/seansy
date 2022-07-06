@@ -1,0 +1,1574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20040EA11B84AAC600B954E5 /* SEAPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20040EA01B84AAC600B954E5 /* SEAPagerViewController.m */; };
+		20040EA41B84AC3100B954E5 /* SEAPagerChildItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20040EA31B84AC3100B954E5 /* SEAPagerChildItemViewController.m */; };
+		20040EA71B84B39F00B954E5 /* SEAShowtimesPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20040EA61B84B39F00B954E5 /* SEAShowtimesPagerViewController.m */; };
+		20040EAA1B84B86A00B954E5 /* SEAShowtimesPagerChildItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20040EA91B84B86A00B954E5 /* SEAShowtimesPagerChildItemViewController.m */; };
+		2009F10F1AB4F08600B224AB /* SEAStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2009F10E1AB4F08600B224AB /* SEAStarRatingView.m */; };
+		2009F1181AB4FC3400B224AB /* SEASettingsViewTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2009F1171AB4FC3400B224AB /* SEASettingsViewTableCell.m */; };
+		201293031B7FB34900AED9DE /* XLButtonBarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 201292FD1B7FB34900AED9DE /* XLButtonBarViewCell.m */; };
+		201293041B7FB34900AED9DE /* XLButtonBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 201292FF1B7FB34900AED9DE /* XLButtonBarView.m */; };
+		201293051B7FB34900AED9DE /* XLButtonBarPagerTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201293011B7FB34900AED9DE /* XLButtonBarPagerTabStripViewController.m */; };
+		2013D0371BF6C018008D0150 /* SEAActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2013D0341BF6C018008D0150 /* SEAActionSheet.m */; };
+		2013D0381BF6C018008D0150 /* SEAAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2013D0361BF6C018008D0150 /* SEAAlertView.m */; };
+		201660EF1B7A224400EFB6C8 /* NSDate+SEAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 201660EE1B7A224400EFB6C8 /* NSDate+SEAHelpers.m */; };
+		202150511AC500B60005C6A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 202150501AC500B60005C6A5 /* LaunchScreen.xib */; };
+		2026A4891ABB86D3000CA606 /* SEAMovieShowtimesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026A4881ABB86D3000CA606 /* SEAMovieShowtimesView.m */; };
+		2026A49A1ABCE301000CA606 /* SEAShowtimesCarouselWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026A4991ABCE301000CA606 /* SEAShowtimesCarouselWithLabel.m */; };
+		2026A49D1ABD3662000CA606 /* SEATheatreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026A49C1ABD3662000CA606 /* SEATheatreViewController.m */; };
+		2028529E1BA0A79200BC9197 /* SEANewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2028529D1BA0A79200BC9197 /* SEANewsViewController.m */; };
+		202852A21BA0B03500BC9197 /* SEATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 202852A11BA0B03500BC9197 /* SEATableViewController.m */; };
+		202B06B71C16687700AD3984 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202B06B61C16687700AD3984 /* NotificationCenter.framework */; };
+		202B06C21C16687700AD3984 /* SeansyWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 202B06B51C16687600AD3984 /* SeansyWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		203202721BA9163F004BEE8A /* SEAActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203202711BA9163F004BEE8A /* SEAActivityViewController.m */; };
+		2032027A1BA9219F004BEE8A /* SEAWalkthroughViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203202751BA9219F004BEE8A /* SEAWalkthroughViewController.m */; };
+		2032027B1BA9219F004BEE8A /* SEAOnboardingContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203202771BA9219F004BEE8A /* SEAOnboardingContentViewController.m */; };
+		2032027C1BA9219F004BEE8A /* SEAOnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203202791BA9219F004BEE8A /* SEAOnboardingViewController.m */; };
+		2032027F1BAB32D5004BEE8A /* AYAppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2032027E1BAB32D5004BEE8A /* AYAppStore.m */; };
+		203202821BAB3385004BEE8A /* AYFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 203202811BAB3385004BEE8A /* AYFeedback.m */; };
+		203715961B8B108A00958DD0 /* SEAPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203715951B8B108A00958DD0 /* SEAPickerView.m */; };
+		203BE02C1C0FEBF40079E9CA /* SEAReviewsCarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203BE02B1C0FEBF40079E9CA /* SEAReviewsCarouselCell.m */; };
+		203BE02F1C1104120079E9CA /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203BE02D1C1104120079E9CA /* CoreSpotlight.framework */; };
+		203BE0301C1104120079E9CA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203BE02E1C1104120079E9CA /* MobileCoreServices.framework */; };
+		203BE0361C124A7A0079E9CA /* SEAAppCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 203BE0351C124A7A0079E9CA /* SEAAppCoordinator.m */; };
+		203BE03E1C125CE80079E9CA /* SEAErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203BE03D1C125CE80079E9CA /* SEAErrorView.m */; };
+		203D8F8C1C0B96D900426A5F /* SEAStillsCarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D8F8B1C0B96D900426A5F /* SEAStillsCarouselCell.m */; };
+		203D8F921C0BB95400426A5F /* SEAStill.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D8F911C0BB95400426A5F /* SEAStill.m */; };
+		204389D81B8619B2008B6378 /* SEAArrowIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 204389D71B8619B2008B6378 /* SEAArrowIcon.m */; };
+		20459BFD1ACCFA60003A4D04 /* SEAShowtimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20459BFC1ACCFA60003A4D04 /* SEAShowtimeViewController.m */; };
+		20478B7F1C18E93F00CDC145 /* NSString+SEAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20478B7E1C18E93F00CDC145 /* NSString+SEAHelpers.m */; };
+		20478B801C18EA1B00CDC145 /* NSString+SEAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20478B7E1C18E93F00CDC145 /* NSString+SEAHelpers.m */; };
+		20478B831C18F8C000CDC145 /* SEAFeaturedMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20478B821C18F8C000CDC145 /* SEAFeaturedMovieView.m */; };
+		20478B861C1910F600CDC145 /* SEAPoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 20478B851C1910F600CDC145 /* SEAPoster.m */; };
+		20478B871C19159800CDC145 /* SEAPoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 20478B851C1910F600CDC145 /* SEAPoster.m */; };
+		20478B8A1C192B7700CDC145 /* SEATicketonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20478B891C192B7700CDC145 /* SEATicketonViewController.m */; };
+		2049CEF41A9D311F00201202 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2049CEF31A9D311F00201202 /* JavaScriptCore.framework */; };
+		2049CEF61A9D312500201202 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2049CEF51A9D312500201202 /* MediaPlayer.framework */; };
+		2049CF031A9DAC1500201202 /* SEAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2049CF021A9DAC1500201202 /* SEAConstants.m */; };
+		20563D011AD328E6008366E6 /* UIWindow+SEAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20563D001AD328E6008366E6 /* UIWindow+SEAHelpers.m */; };
+		205BC5681B80F150006093D8 /* SEAMoviesGridFeaturedMoviesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 205BC5671B80F150006093D8 /* SEAMoviesGridFeaturedMoviesView.m */; };
+		2063B0C21AC86629001A0B8F /* SEAPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063B0A11AC86629001A0B8F /* SEAPromptView.m */; };
+		2063B1821AC8DA2A001A0B8F /* SEAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063B13C1AC8C7FF001A0B8F /* SEAMapViewController.m */; };
+		206642191C1B958B008429A0 /* SEANavigationBarTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 206642181C1B958B008429A0 /* SEANavigationBarTitleView.m */; };
+		2071A6C11B748DB90063DE39 /* SEAShowtimeInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2071A6C01B748DB90063DE39 /* SEAShowtimeInfoView.m */; };
+		207323BC1AA7A999006914A5 /* SEASettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207323BB1AA7A999006914A5 /* SEASettingsViewController.m */; };
+		207323BF1AA7C1E7006914A5 /* SEAShowtimesCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 207323BE1AA7C1E7006914A5 /* SEAShowtimesCarousel.m */; };
+		207563E11AD0973200627DE7 /* UIFont+SEASizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 207563E01AD0973200627DE7 /* UIFont+SEASizes.m */; };
+		207906731AA3B90F0052FF5A /* UINavigationItem+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 207906721AA3B90F0052FF5A /* UINavigationItem+Loading.m */; };
+		207906761AA3BC3B0052FF5A /* SEAProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207906751AA3BC3B0052FF5A /* SEAProgressView.m */; };
+		2079069C1AA4CBB40052FF5A /* SEADataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2079069B1AA4CBB40052FF5A /* SEADataManager.m */; };
+		2079A6A91B7B3A6900ADF6E2 /* SEAAnimatedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2079A6A81B7B3A6900ADF6E2 /* SEAAnimatedNavigationController.m */; };
+		207DEF5D1AC5FAC80084EBDF /* LMAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 207DEF5A1AC5FAC80084EBDF /* LMAddress.m */; };
+		207DEF5E1AC5FAC80084EBDF /* LMGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 207DEF5C1AC5FAC80084EBDF /* LMGeocoder.m */; };
+		20817FDC1C0539AE0050649F /* SEAModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20817FDB1C0539AE0050649F /* SEAModel.m */; };
+		20851D3C1A9178E7009E16FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20851D3B1A9178E7009E16FE /* main.m */; };
+		20851D3F1A9178E7009E16FE /* SEAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20851D3E1A9178E7009E16FE /* SEAAppDelegate.m */; };
+		20851D591A9178E7009E16FE /* SeansyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20851D581A9178E7009E16FE /* SeansyTests.m */; };
+		20851D661A917920009E16FE /* SEAMoviesPagerChildItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20851D651A917920009E16FE /* SEAMoviesPagerChildItemViewController.m */; };
+		20851D6D1A91792A009E16FE /* SEAMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 20851D681A91792A009E16FE /* SEAMovie.m */; };
+		20851D6E1A91792A009E16FE /* SEAShowtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 20851D6A1A91792A009E16FE /* SEAShowtime.m */; };
+		20851D6F1A91792A009E16FE /* SEATheatre.m in Sources */ = {isa = PBXBuildFile; fileRef = 20851D6C1A91792A009E16FE /* SEATheatre.m */; };
+		20851D781A928FA4009E16FE /* SEAMoviesGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20851D771A928FA4009E16FE /* SEAMoviesGridCell.m */; };
+		208AAAFF1BA689C100D43B5A /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 208AAAFE1BA6876100D43B5A /* Lato-Italic.ttf */; };
+		20910EC71C17A36800AF1A71 /* SEAWidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 202B06BA1C16687700AD3984 /* SEAWidgetViewController.m */; };
+		20910EC81C17A37D00AF1A71 /* SEAMoviesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2062C7D01C177E770019E844 /* SEAMoviesTableViewCell.m */; };
+		2094C8A21B769839006D0E33 /* CCColorCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 2094C89F1B769839006D0E33 /* CCColorCube.m */; };
+		2094C8A31B769839006D0E33 /* CCLocalMaximum.m in Sources */ = {isa = PBXBuildFile; fileRef = 2094C8A11B769839006D0E33 /* CCLocalMaximum.m */; };
+		2094C8AB1B77731C006D0E33 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2094C8AA1B77731C006D0E33 /* Lato-Light.ttf */; };
+		2094C8AE1B777699006D0E33 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2094C8AC1B777699006D0E33 /* Lato-Regular.ttf */; };
+		2094C8AF1B77769A006D0E33 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2094C8AD1B777699006D0E33 /* Lato-Semibold.ttf */; };
+		2094C8B31B778887006D0E33 /* SEABackdrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2094C8B21B778887006D0E33 /* SEABackdrop.m */; };
+		209506691AA0ED20009CEF7F /* SEAMoviesPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209506681AA0ED20009CEF7F /* SEAMoviesPagerViewController.m */; };
+		2095066C1AA10DDC009CEF7F /* UILabel+SEAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2095066B1AA10DDC009CEF7F /* UILabel+SEAHelpers.m */; };
+		2095C7B61BAE36D00050A7FD /* UIView+AYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2095C7B51BAE36D00050A7FD /* UIView+AYUtils.m */; };
+		2096F6E01B84958000360434 /* SEATheatresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2096F6DF1B84958000360434 /* SEATheatresViewController.m */; };
+		209AC4001AB625C90067EAB8 /* SEAMoviesFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 209AC3FF1AB625C90067EAB8 /* SEAMoviesFilter.m */; };
+		209AC4031AB62FBB0067EAB8 /* SEAMoviesFilterGenresSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 209AC4021AB62FBB0067EAB8 /* SEAMoviesFilterGenresSelectorCell.m */; };
+		209ADE9E1BA21692003FE1EF /* SEANewsEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 209ADE9D1BA21692003FE1EF /* SEANewsEntry.m */; };
+		20AA9CDA1BF6EF9000F2A227 /* SEAMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AA9CD91BF6EF9000F2A227 /* SEAMainTabBarController.m */; };
+		20ADA0CA1A943F7000D0E1AA /* UIColor+SEAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADA0C91A943F7000D0E1AA /* UIColor+SEAHelpers.m */; };
+		20B5A5881AADE67A00E778CB /* SEAPersonsCarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B5A5871AADE67A00E778CB /* SEAPersonsCarouselCell.m */; };
+		20B5A58E1AAFA9D800E778CB /* SEAShowtimesSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B5A58D1AAFA9D800E778CB /* SEAShowtimesSectionHeaderView.m */; };
+		20C36B311B8C96F200D3E3D6 /* Street-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20C36B301B8C96E400D3E3D6 /* Street-Semibold.ttf */; };
+		20C36B351B8CC49000D3E3D6 /* SEAShowtimesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C36B341B8CC49000D3E3D6 /* SEAShowtimesList.m */; };
+		20C36B381B8DAAB400D3E3D6 /* SEAShowtimesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C36B371B8DAAB400D3E3D6 /* SEAShowtimesCell.m */; };
+		20C6D1B61BF91F1A0059CE9E /* CLLocation+SEAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6D1B51BF91F1A0059CE9E /* CLLocation+SEAHelpers.m */; };
+		20C96EED1C17988E00ED4F42 /* LMAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 207DEF5A1AC5FAC80084EBDF /* LMAddress.m */; };
+		20C96EEF1C17988E00ED4F42 /* LMGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 207DEF5C1AC5FAC80084EBDF /* LMGeocoder.m */; };
+		20C96EF11C17988E00ED4F42 /* SEADataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2079069B1AA4CBB40052FF5A /* SEADataManager.m */; };
+		20C96EF31C17988E00ED4F42 /* SEALocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1CE41AB7F67200C81079 /* SEALocationManager.m */; };
+		20C96EF51C17988E00ED4F42 /* SEABackdrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2094C8B21B778887006D0E33 /* SEABackdrop.m */; };
+		20C96EF71C17988E00ED4F42 /* SEAModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20817FDB1C0539AE0050649F /* SEAModel.m */; };
+		20C96EF91C17988E00ED4F42 /* SEAMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 20851D681A91792A009E16FE /* SEAMovie.m */; };
+		20C96EFB1C17988E00ED4F42 /* SEANewsEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 209ADE9D1BA21692003FE1EF /* SEANewsEntry.m */; };
+		20C96EFD1C17988E00ED4F42 /* SEAShowtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 20851D6A1A91792A009E16FE /* SEAShowtime.m */; };
+		20C96EFF1C17988E00ED4F42 /* SEAStill.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D8F911C0BB95400426A5F /* SEAStill.m */; };
+		20C96F011C17988E00ED4F42 /* SEATheatre.m in Sources */ = {isa = PBXBuildFile; fileRef = 20851D6C1A91792A009E16FE /* SEATheatre.m */; };
+		20C96F031C17994B00ED4F42 /* CCColorCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 2094C89F1B769839006D0E33 /* CCColorCube.m */; };
+		20C96F051C17994B00ED4F42 /* CCLocalMaximum.m in Sources */ = {isa = PBXBuildFile; fileRef = 2094C8A11B769839006D0E33 /* CCLocalMaximum.m */; };
+		20C96F071C17994B00ED4F42 /* SEAMoviesFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 209AC3FF1AB625C90067EAB8 /* SEAMoviesFilter.m */; };
+		20C96F0E1C1799C000ED4F42 /* CLLocation+SEAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6D1B51BF91F1A0059CE9E /* CLLocation+SEAHelpers.m */; };
+		20C96F101C1799C000ED4F42 /* NSDate+SEAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 201660EE1B7A224400EFB6C8 /* NSDate+SEAHelpers.m */; };
+		20C96F121C1799C000ED4F42 /* SEAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2049CF021A9DAC1500201202 /* SEAConstants.m */; };
+		20C96F141C1799C000ED4F42 /* UIColor+SEAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADA0C91A943F7000D0E1AA /* UIColor+SEAHelpers.m */; };
+		20C96F161C1799C000ED4F42 /* UIFont+SEASizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 207563E01AD0973200627DE7 /* UIFont+SEASizes.m */; };
+		20C96F1A1C1799C000ED4F42 /* UILabel+SEAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2095066B1AA10DDC009CEF7F /* UILabel+SEAHelpers.m */; };
+		20C96F1E1C1799C000ED4F42 /* UIView+AYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2095C7B51BAE36D00050A7FD /* UIView+AYUtils.m */; };
+		20C96F221C179A1900ED4F42 /* SEAMoviesFilterGenresSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 209AC4021AB62FBB0067EAB8 /* SEAMoviesFilterGenresSelectorCell.m */; };
+		20C9EEE81ABEA831002EEF36 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9EEE71ABEA831002EEF36 /* SystemConfiguration.framework */; };
+		20CA27E91A93804D00D4E97A /* SEAGlassScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CA27E61A93804D00D4E97A /* SEAGlassScrollView.m */; };
+		20CA27EA1A93804D00D4E97A /* UIImage+SEAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CA27E81A93804D00D4E97A /* UIImage+SEAHelpers.m */; };
+		20CC021F1B7B53D500617F9F /* SEAZoomTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CC021E1B7B53D500617F9F /* SEAZoomTransitionAnimator.m */; };
+		20CF6D671AAAEC8100996D2C /* SEAShowtimesItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CF6D661AAAEC8100996D2C /* SEAShowtimesItemCell.m */; };
+		20D17E9C1B7B321E00ECBC25 /* SEAMovieDetailsInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D17E9B1B7B321E00ECBC25 /* SEAMovieDetailsInfoView.m */; };
+		20DB70561BA228E3005197B3 /* SEANewsEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB70551BA228E3005197B3 /* SEANewsEntryCell.m */; };
+		20DB705E1BA27367005197B3 /* SEAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB705D1BA27367005197B3 /* SEAWebViewController.m */; };
+		20DB70971BA4B509005197B3 /* SEASplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB70951BA4B509005197B3 /* SEASplashView.m */; };
+		20DB70A31BA4E9D4005197B3 /* DRViewSlideAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB709E1BA4E9D4005197B3 /* DRViewSlideAction.m */; };
+		20DB70A41BA4E9D4005197B3 /* DRViewSlideActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB70A01BA4E9D4005197B3 /* DRViewSlideActionView.m */; };
+		20DB70A51BA4E9D4005197B3 /* DRViewSlideGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB70A21BA4E9D4005197B3 /* DRViewSlideGestureRecognizer.m */; };
+		20DE1CE51AB7F67200C81079 /* SEALocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1CE41AB7F67200C81079 /* SEALocationManager.m */; };
+		20DE1CF71AB8DB3B00C81079 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20DE1CF61AB8DB3B00C81079 /* Images.xcassets */; };
+		20DE1CFA1AB904EF00C81079 /* SEAMoviesGridSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1CF91AB904EF00C81079 /* SEAMoviesGridSectionHeader.m */; };
+		20EC8DAC1A92A6B200C8A288 /* SEAMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC8DAB1A92A6B200C8A288 /* SEAMovieViewController.m */; };
+		20F3D7C21B7F7D42006D9ECE /* XLPagerTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F3D7C11B7F7D42006D9ECE /* XLPagerTabStripViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		202B06C01C16687700AD3984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20851D2E1A9178E7009E16FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202B06B41C16687600AD3984;
+			remoteInfo = "Seansy Widget";
+		};
+		20851D531A9178E7009E16FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20851D2E1A9178E7009E16FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20851D351A9178E7009E16FE;
+			remoteInfo = Seansy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		202B06C61C16687700AD3984 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				202B06C21C16687700AD3984 /* SeansyWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		20040E9F1B84AAC600B954E5 /* SEAPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAPagerViewController.h; sourceTree = "<group>"; };
+		20040EA01B84AAC600B954E5 /* SEAPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAPagerViewController.m; sourceTree = "<group>"; };
+		20040EA21B84AC3100B954E5 /* SEAPagerChildItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAPagerChildItemViewController.h; sourceTree = "<group>"; };
+		20040EA31B84AC3100B954E5 /* SEAPagerChildItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAPagerChildItemViewController.m; sourceTree = "<group>"; };
+		20040EA51B84B39F00B954E5 /* SEAShowtimesPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAShowtimesPagerViewController.h; sourceTree = "<group>"; };
+		20040EA61B84B39F00B954E5 /* SEAShowtimesPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAShowtimesPagerViewController.m; sourceTree = "<group>"; };
+		20040EA81B84B86A00B954E5 /* SEAShowtimesPagerChildItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAShowtimesPagerChildItemViewController.h; sourceTree = "<group>"; };
+		20040EA91B84B86A00B954E5 /* SEAShowtimesPagerChildItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAShowtimesPagerChildItemViewController.m; sourceTree = "<group>"; };
+		2009F10D1AB4F08600B224AB /* SEAStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAStarRatingView.h; sourceTree = "<group>"; };
+		2009F10E1AB4F08600B224AB /* SEAStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAStarRatingView.m; sourceTree = "<group>"; };
+		2009F1161AB4FC3400B224AB /* SEASettingsViewTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEASettingsViewTableCell.h; sourceTree = "<group>"; };
+		2009F1171AB4FC3400B224AB /* SEASettingsViewTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEASettingsViewTableCell.m; sourceTree = "<group>"; };
+		201292FD1B7FB34900AED9DE /* XLButtonBarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLButtonBarViewCell.m; sourceTree = "<group>"; };
+		201292FE1B7FB34900AED9DE /* XLButtonBarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLButtonBarViewCell.h; sourceTree = "<group>"; };
+		201292FF1B7FB34900AED9DE /* XLButtonBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLButtonBarView.m; sourceTree = "<group>"; };
+		201293001B7FB34900AED9DE /* XLButtonBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLButtonBarView.h; sourceTree = "<group>"; };
+		201293011B7FB34900AED9DE /* XLButtonBarPagerTabStripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLButtonBarPagerTabStripViewController.m; sourceTree = "<group>"; };
+		201293021B7FB34900AED9DE /* XLButtonBarPagerTabStripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLButtonBarPagerTabStripViewController.h; sourceTree = "<group>"; };
+		2013D0331BF6C018008D0150 /* SEAActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAActionSheet.h; sourceTree = "<group>"; };
+		2013D0341BF6C018008D0150 /* SEAActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAActionSheet.m; sourceTree = "<group>"; };
+		2013D0351BF6C018008D0150 /* SEAAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAAlertView.h; sourceTree = "<group>"; };
+		2013D0361BF6C018008D0150 /* SEAAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAAlertView.m; sourceTree = "<group>"; };
+		201660ED1B7A224400EFB6C8 /* NSDate+SEAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SEAHelpers.h"; sourceTree = "<group>"; };
+		201660EE1B7A224400EFB6C8 /* NSDate+SEAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SEAHelpers.m"; sourceTree = "<group>"; };
+		201E80691BF7F336004DA462 /* Seansy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Seansy-Prefix.pch"; sourceTree = "<group>"; };
+		202150501AC500B60005C6A5 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		2026A4871ABB86D3000CA606 /* SEAMovieShowtimesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMovieShowtimesView.h; sourceTree = "<group>"; };
+		2026A4881ABB86D3000CA606 /* SEAMovieShowtimesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMovieShowtimesView.m; sourceTree = "<group>"; };
+		2026A4981ABCE301000CA606 /* SEAShowtimesCarouselWithLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAShowtimesCarouselWithLabel.h; sourceTree = "<group>"; };
+		2026A4991ABCE301000CA606 /* SEAShowtimesCarouselWithLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAShowtimesCarouselWithLabel.m; sourceTree = "<group>"; };
+		2026A49B1ABD3662000CA606 /* SEATheatreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEATheatreViewController.h; sourceTree = "<group>"; };
+		2026A49C1ABD3662000CA606 /* SEATheatreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEATheatreViewController.m; sourceTree = "<group>"; };
+		2028529C1BA0A79200BC9197 /* SEANewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEANewsViewController.h; sourceTree = "<group>"; };
+		2028529D1BA0A79200BC9197 /* SEANewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEANewsViewController.m; sourceTree = "<group>"; };
+		202852A01BA0B03500BC9197 /* SEATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEATableViewController.h; sourceTree = "<group>"; };
+		202852A11BA0B03500BC9197 /* SEATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEATableViewController.m; sourceTree = "<group>"; };
+		202B06B51C16687600AD3984 /* SeansyWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SeansyWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		202B06B61C16687700AD3984 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		202B06B91C16687700AD3984 /* SEAWidgetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEAWidgetViewController.h; sourceTree = "<group>"; };
+		202B06BA1C16687700AD3984 /* SEAWidgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEAWidgetViewController.m; sourceTree = "<group>"; };
+		202B06BF1C16687700AD3984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202D8B65207FB42000BE56E6 /* Secrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secrets.h; sourceTree = "<group>"; };
+		203202701BA9163F004BEE8A /* SEAActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAActivityViewController.h; sourceTree = "<group>"; };
+		203202711BA9163F004BEE8A /* SEAActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAActivityViewController.m; sourceTree = "<group>"; };
+		203202741BA9219F004BEE8A /* SEAWalkthroughViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAWalkthroughViewController.h; sourceTree = "<group>"; };
+		203202751BA9219F004BEE8A /* SEAWalkthroughViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAWalkthroughViewController.m; sourceTree = "<group>"; };
+		203202761BA9219F004BEE8A /* SEAOnboardingContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAOnboardingContentViewController.h; sourceTree = "<group>"; };
+		203202771BA9219F004BEE8A /* SEAOnboardingContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAOnboardingContentViewController.m; sourceTree = "<group>"; };
+		203202781BA9219F004BEE8A /* SEAOnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAOnboardingViewController.h; sourceTree = "<group>"; };
+		203202791BA9219F004BEE8A /* SEAOnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAOnboardingViewController.m; sourceTree = "<group>"; };
+		2032027D1BAB32D5004BEE8A /* AYAppStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYAppStore.h; sourceTree = "<group>"; };
+		2032027E1BAB32D5004BEE8A /* AYAppStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYAppStore.m; sourceTree = "<group>"; };
+		203202801BAB3385004BEE8A /* AYFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYFeedback.h; sourceTree = "<group>"; };
+		203202811BAB3385004BEE8A /* AYFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYFeedback.m; sourceTree = "<group>"; };
+		203715941B8B108A00958DD0 /* SEAPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAPickerView.h; sourceTree = "<group>"; };
+		203715951B8B108A00958DD0 /* SEAPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAPickerView.m; sourceTree = "<group>"; };
+		203761391B7E0B7000B09F38 /* SEAMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMainTabBarController.h; sourceTree = "<group>"; };
+		203BE02A1C0FEBF40079E9CA /* SEAReviewsCarouselCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAReviewsCarouselCell.h; sourceTree = "<group>"; };
+		203BE02B1C0FEBF40079E9CA /* SEAReviewsCarouselCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAReviewsCarouselCell.m; sourceTree = "<group>"; };
+		203BE02D1C1104120079E9CA /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		203BE02E1C1104120079E9CA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		203BE0341C124A7A0079E9CA /* SEAAppCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAAppCoordinator.h; sourceTree = "<group>"; };
+		203BE0351C124A7A0079E9CA /* SEAAppCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAAppCoordinator.m; sourceTree = "<group>"; };
+		203BE0371C1254B30079E9CA /* SEATabBarItemViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEATabBarItemViewControllerDelegate.h; sourceTree = "<group>"; };
+		203BE03C1C125CE80079E9CA /* SEAErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAErrorView.h; sourceTree = "<group>"; };
+		203BE03D1C125CE80079E9CA /* SEAErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAErrorView.m; sourceTree = "<group>"; };
+		203D8F8A1C0B96D900426A5F /* SEAStillsCarouselCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAStillsCarouselCell.h; sourceTree = "<group>"; };
+		203D8F8B1C0B96D900426A5F /* SEAStillsCarouselCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAStillsCarouselCell.m; sourceTree = "<group>"; };
+		203D8F901C0BB95400426A5F /* SEAStill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAStill.h; sourceTree = "<group>"; };
+		203D8F911C0BB95400426A5F /* SEAStill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAStill.m; sourceTree = "<group>"; };
+		204389D61B8619B2008B6378 /* SEAArrowIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAArrowIcon.h; sourceTree = "<group>"; };
+		204389D71B8619B2008B6378 /* SEAArrowIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAArrowIcon.m; sourceTree = "<group>"; };
+		20459BFB1ACCFA5F003A4D04 /* SEAShowtimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAShowtimeViewController.h; sourceTree = "<group>"; };
+		20459BFC1ACCFA60003A4D04 /* SEAShowtimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAShowtimeViewController.m; sourceTree = "<group>"; };
+		20478B7D1C18E93F00CDC145 /* NSString+SEAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SEAHelpers.h"; sourceTree = "<group>"; };
+		20478B7E1C18E93F00CDC145 /* NSString+SEAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SEAHelpers.m"; sourceTree = "<group>"; };
+		20478B811C18F8C000CDC145 /* SEAFeaturedMovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAFeaturedMovieView.h; sourceTree = "<group>"; };
+		20478B821C18F8C000CDC145 /* SEAFeaturedMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAFeaturedMovieView.m; sourceTree = "<group>"; };
+		20478B841C1910F600CDC145 /* SEAPoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAPoster.h; sourceTree = "<group>"; };
+		20478B851C1910F600CDC145 /* SEAPoster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAPoster.m; sourceTree = "<group>"; };
+		20478B881C192B7700CDC145 /* SEATicketonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEATicketonViewController.h; sourceTree = "<group>"; };
+		20478B891C192B7700CDC145 /* SEATicketonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEATicketonViewController.m; sourceTree = "<group>"; };
+		2049CEF31A9D311F00201202 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		2049CEF51A9D312500201202 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2049CF011A9DAC1500201202 /* SEAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAConstants.h; sourceTree = "<group>"; };
+		2049CF021A9DAC1500201202 /* SEAConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAConstants.m; sourceTree = "<group>"; };
+		20563CFF1AD328E6008366E6 /* UIWindow+SEAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+SEAHelpers.h"; sourceTree = "<group>"; };
+		20563D001AD328E6008366E6 /* UIWindow+SEAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+SEAHelpers.m"; sourceTree = "<group>"; };
+		205BC5661B80F150006093D8 /* SEAMoviesGridFeaturedMoviesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMoviesGridFeaturedMoviesView.h; sourceTree = "<group>"; };
+		205BC5671B80F150006093D8 /* SEAMoviesGridFeaturedMoviesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMoviesGridFeaturedMoviesView.m; sourceTree = "<group>"; };
+		2062C7CF1C177E770019E844 /* SEAMoviesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMoviesTableViewCell.h; sourceTree = "<group>"; };
+		2062C7D01C177E770019E844 /* SEAMoviesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMoviesTableViewCell.m; sourceTree = "<group>"; };
+		2063B0A01AC86629001A0B8F /* SEAPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAPromptView.h; sourceTree = "<group>"; };
+		2063B0A11AC86629001A0B8F /* SEAPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAPromptView.m; sourceTree = "<group>"; };
+		2063B13B1AC8C7FF001A0B8F /* SEAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMapViewController.h; sourceTree = "<group>"; };
+		2063B13C1AC8C7FF001A0B8F /* SEAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMapViewController.m; sourceTree = "<group>"; };
+		206642171C1B958B008429A0 /* SEANavigationBarTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEANavigationBarTitleView.h; sourceTree = "<group>"; };
+		206642181C1B958B008429A0 /* SEANavigationBarTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEANavigationBarTitleView.m; sourceTree = "<group>"; };
+		2071A6BF1B748DB90063DE39 /* SEAShowtimeInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAShowtimeInfoView.h; sourceTree = "<group>"; };
+		2071A6C01B748DB90063DE39 /* SEAShowtimeInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAShowtimeInfoView.m; sourceTree = "<group>"; };
+		207323BA1AA7A999006914A5 /* SEASettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEASettingsViewController.h; sourceTree = "<group>"; };
+		207323BB1AA7A999006914A5 /* SEASettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEASettingsViewController.m; sourceTree = "<group>"; };
+		207323BD1AA7C1E7006914A5 /* SEAShowtimesCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAShowtimesCarousel.h; sourceTree = "<group>"; };
+		207323BE1AA7C1E7006914A5 /* SEAShowtimesCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAShowtimesCarousel.m; sourceTree = "<group>"; };
+		207563DF1AD0973200627DE7 /* UIFont+SEASizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+SEASizes.h"; sourceTree = "<group>"; };
+		207563E01AD0973200627DE7 /* UIFont+SEASizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SEASizes.m"; sourceTree = "<group>"; };
+		207906711AA3B90F0052FF5A /* UINavigationItem+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Loading.h"; sourceTree = "<group>"; };
+		207906721AA3B90F0052FF5A /* UINavigationItem+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Loading.m"; sourceTree = "<group>"; };
+		207906741AA3BC3B0052FF5A /* SEAProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAProgressView.h; sourceTree = "<group>"; };
+		207906751AA3BC3B0052FF5A /* SEAProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAProgressView.m; sourceTree = "<group>"; };
+		2079069A1AA4CBB40052FF5A /* SEADataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEADataManager.h; sourceTree = "<group>"; };
+		2079069B1AA4CBB40052FF5A /* SEADataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEADataManager.m; sourceTree = "<group>"; };
+		2079A6A71B7B3A6900ADF6E2 /* SEAAnimatedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAAnimatedNavigationController.h; sourceTree = "<group>"; };
+		2079A6A81B7B3A6900ADF6E2 /* SEAAnimatedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAAnimatedNavigationController.m; sourceTree = "<group>"; };
+		207DEF591AC5FAC80084EBDF /* LMAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAddress.h; sourceTree = "<group>"; };
+		207DEF5A1AC5FAC80084EBDF /* LMAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAddress.m; sourceTree = "<group>"; };
+		207DEF5B1AC5FAC80084EBDF /* LMGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMGeocoder.h; sourceTree = "<group>"; };
+		207DEF5C1AC5FAC80084EBDF /* LMGeocoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMGeocoder.m; sourceTree = "<group>"; };
+		20817FDA1C0539AE0050649F /* SEAModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAModel.h; sourceTree = "<group>"; };
+		20817FDB1C0539AE0050649F /* SEAModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAModel.m; sourceTree = "<group>"; };
+		20851D361A9178E7009E16FE /* Seansy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seansy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20851D3A1A9178E7009E16FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20851D3B1A9178E7009E16FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20851D3D1A9178E7009E16FE /* SEAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEAAppDelegate.h; sourceTree = "<group>"; };
+		20851D3E1A9178E7009E16FE /* SEAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEAAppDelegate.m; sourceTree = "<group>"; };
+		20851D521A9178E7009E16FE /* SeansyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeansyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20851D571A9178E7009E16FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20851D581A9178E7009E16FE /* SeansyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeansyTests.m; sourceTree = "<group>"; };
+		20851D641A917920009E16FE /* SEAMoviesPagerChildItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMoviesPagerChildItemViewController.h; sourceTree = "<group>"; };
+		20851D651A917920009E16FE /* SEAMoviesPagerChildItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMoviesPagerChildItemViewController.m; sourceTree = "<group>"; };
+		20851D671A91792A009E16FE /* SEAMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMovie.h; sourceTree = "<group>"; };
+		20851D681A91792A009E16FE /* SEAMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMovie.m; sourceTree = "<group>"; };
+		20851D691A91792A009E16FE /* SEAShowtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAShowtime.h; sourceTree = "<group>"; };
+		20851D6A1A91792A009E16FE /* SEAShowtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAShowtime.m; sourceTree = "<group>"; };
+		20851D6B1A91792A009E16FE /* SEATheatre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEATheatre.h; sourceTree = "<group>"; };
+		20851D6C1A91792A009E16FE /* SEATheatre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEATheatre.m; sourceTree = "<group>"; };
+		20851D761A928FA4009E16FE /* SEAMoviesGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMoviesGridCell.h; sourceTree = "<group>"; };
+		20851D771A928FA4009E16FE /* SEAMoviesGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMoviesGridCell.m; sourceTree = "<group>"; };
+		208AAAFE1BA6876100D43B5A /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		2094C89E1B769839006D0E33 /* CCColorCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCColorCube.h; sourceTree = "<group>"; };
+		2094C89F1B769839006D0E33 /* CCColorCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCColorCube.m; sourceTree = "<group>"; };
+		2094C8A01B769839006D0E33 /* CCLocalMaximum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLocalMaximum.h; sourceTree = "<group>"; };
+		2094C8A11B769839006D0E33 /* CCLocalMaximum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLocalMaximum.m; sourceTree = "<group>"; };
+		2094C8AA1B77731C006D0E33 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		2094C8AC1B777699006D0E33 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		2094C8AD1B777699006D0E33 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		2094C8B11B778887006D0E33 /* SEABackdrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEABackdrop.h; sourceTree = "<group>"; };
+		2094C8B21B778887006D0E33 /* SEABackdrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEABackdrop.m; sourceTree = "<group>"; };
+		209506671AA0ED20009CEF7F /* SEAMoviesPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMoviesPagerViewController.h; sourceTree = "<group>"; };
+		209506681AA0ED20009CEF7F /* SEAMoviesPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMoviesPagerViewController.m; sourceTree = "<group>"; };
+		2095066A1AA10DDC009CEF7F /* UILabel+SEAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SEAHelpers.h"; sourceTree = "<group>"; };
+		2095066B1AA10DDC009CEF7F /* UILabel+SEAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SEAHelpers.m"; sourceTree = "<group>"; };
+		2095C7B31BAE36D00050A7FD /* AYMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMacros.h; sourceTree = "<group>"; };
+		2095C7B41BAE36D00050A7FD /* UIView+AYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AYUtils.h"; sourceTree = "<group>"; };
+		2095C7B51BAE36D00050A7FD /* UIView+AYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AYUtils.m"; sourceTree = "<group>"; };
+		2096F6DE1B84958000360434 /* SEATheatresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEATheatresViewController.h; sourceTree = "<group>"; };
+		2096F6DF1B84958000360434 /* SEATheatresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEATheatresViewController.m; sourceTree = "<group>"; };
+		209AC3FE1AB625C90067EAB8 /* SEAMoviesFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMoviesFilter.h; sourceTree = "<group>"; };
+		209AC3FF1AB625C90067EAB8 /* SEAMoviesFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMoviesFilter.m; sourceTree = "<group>"; };
+		209AC4011AB62FBB0067EAB8 /* SEAMoviesFilterGenresSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMoviesFilterGenresSelectorCell.h; sourceTree = "<group>"; };
+		209AC4021AB62FBB0067EAB8 /* SEAMoviesFilterGenresSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMoviesFilterGenresSelectorCell.m; sourceTree = "<group>"; };
+		209ADE9C1BA21692003FE1EF /* SEANewsEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEANewsEntry.h; sourceTree = "<group>"; };
+		209ADE9D1BA21692003FE1EF /* SEANewsEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEANewsEntry.m; sourceTree = "<group>"; };
+		20AA9CD91BF6EF9000F2A227 /* SEAMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMainTabBarController.m; sourceTree = "<group>"; };
+		20ADA0C81A943F7000D0E1AA /* UIColor+SEAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SEAHelpers.h"; sourceTree = "<group>"; };
+		20ADA0C91A943F7000D0E1AA /* UIColor+SEAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SEAHelpers.m"; sourceTree = "<group>"; };
+		20B5A5861AADE67A00E778CB /* SEAPersonsCarouselCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAPersonsCarouselCell.h; sourceTree = "<group>"; };
+		20B5A5871AADE67A00E778CB /* SEAPersonsCarouselCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAPersonsCarouselCell.m; sourceTree = "<group>"; };
+		20B5A58C1AAFA9D800E778CB /* SEAShowtimesSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAShowtimesSectionHeaderView.h; sourceTree = "<group>"; };
+		20B5A58D1AAFA9D800E778CB /* SEAShowtimesSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAShowtimesSectionHeaderView.m; sourceTree = "<group>"; };
+		20C36B301B8C96E400D3E3D6 /* Street-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Street-Semibold.ttf"; sourceTree = "<group>"; };
+		20C36B331B8CC49000D3E3D6 /* SEAShowtimesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAShowtimesList.h; sourceTree = "<group>"; };
+		20C36B341B8CC49000D3E3D6 /* SEAShowtimesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAShowtimesList.m; sourceTree = "<group>"; };
+		20C36B361B8DAAB400D3E3D6 /* SEAShowtimesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAShowtimesCell.h; sourceTree = "<group>"; };
+		20C36B371B8DAAB400D3E3D6 /* SEAShowtimesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAShowtimesCell.m; sourceTree = "<group>"; };
+		20C6D1B41BF91F1A0059CE9E /* CLLocation+SEAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+SEAHelpers.h"; sourceTree = "<group>"; };
+		20C6D1B51BF91F1A0059CE9E /* CLLocation+SEAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+SEAHelpers.m"; sourceTree = "<group>"; };
+		20C96F231C179E4F00ED4F42 /* SeansyWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SeansyWidget.entitlements; sourceTree = "<group>"; };
+		20C96F241C179FDC00ED4F42 /* Seansy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Seansy.entitlements; sourceTree = "<group>"; };
+		20C9EEE71ABEA831002EEF36 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		20CA27E51A93804D00D4E97A /* SEAGlassScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAGlassScrollView.h; sourceTree = "<group>"; };
+		20CA27E61A93804D00D4E97A /* SEAGlassScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAGlassScrollView.m; sourceTree = "<group>"; };
+		20CA27E71A93804D00D4E97A /* UIImage+SEAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SEAHelpers.h"; sourceTree = "<group>"; };
+		20CA27E81A93804D00D4E97A /* UIImage+SEAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SEAHelpers.m"; sourceTree = "<group>"; };
+		20CC021D1B7B53D500617F9F /* SEAZoomTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAZoomTransitionAnimator.h; sourceTree = "<group>"; };
+		20CC021E1B7B53D500617F9F /* SEAZoomTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAZoomTransitionAnimator.m; sourceTree = "<group>"; };
+		20CF6D651AAAEC8100996D2C /* SEAShowtimesItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAShowtimesItemCell.h; sourceTree = "<group>"; };
+		20CF6D661AAAEC8100996D2C /* SEAShowtimesItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAShowtimesItemCell.m; sourceTree = "<group>"; };
+		20D17E9A1B7B321E00ECBC25 /* SEAMovieDetailsInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMovieDetailsInfoView.h; sourceTree = "<group>"; };
+		20D17E9B1B7B321E00ECBC25 /* SEAMovieDetailsInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMovieDetailsInfoView.m; sourceTree = "<group>"; };
+		20DB70541BA228E3005197B3 /* SEANewsEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEANewsEntryCell.h; sourceTree = "<group>"; };
+		20DB70551BA228E3005197B3 /* SEANewsEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEANewsEntryCell.m; sourceTree = "<group>"; };
+		20DB705C1BA27367005197B3 /* SEAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAWebViewController.h; sourceTree = "<group>"; };
+		20DB705D1BA27367005197B3 /* SEAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAWebViewController.m; sourceTree = "<group>"; };
+		20DB70941BA4B509005197B3 /* SEASplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEASplashView.h; sourceTree = "<group>"; };
+		20DB70951BA4B509005197B3 /* SEASplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEASplashView.m; sourceTree = "<group>"; };
+		20DB709D1BA4E9D4005197B3 /* DRViewSlideAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRViewSlideAction.h; sourceTree = "<group>"; };
+		20DB709E1BA4E9D4005197B3 /* DRViewSlideAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRViewSlideAction.m; sourceTree = "<group>"; };
+		20DB709F1BA4E9D4005197B3 /* DRViewSlideActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRViewSlideActionView.h; sourceTree = "<group>"; };
+		20DB70A01BA4E9D4005197B3 /* DRViewSlideActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRViewSlideActionView.m; sourceTree = "<group>"; };
+		20DB70A11BA4E9D4005197B3 /* DRViewSlideGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRViewSlideGestureRecognizer.h; sourceTree = "<group>"; };
+		20DB70A21BA4E9D4005197B3 /* DRViewSlideGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRViewSlideGestureRecognizer.m; sourceTree = "<group>"; };
+		20DE1CE31AB7F67200C81079 /* SEALocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEALocationManager.h; sourceTree = "<group>"; };
+		20DE1CE41AB7F67200C81079 /* SEALocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEALocationManager.m; sourceTree = "<group>"; };
+		20DE1CF61AB8DB3B00C81079 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20DE1CF81AB904EF00C81079 /* SEAMoviesGridSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMoviesGridSectionHeader.h; sourceTree = "<group>"; };
+		20DE1CF91AB904EF00C81079 /* SEAMoviesGridSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMoviesGridSectionHeader.m; sourceTree = "<group>"; };
+		20EC8DAA1A92A6B200C8A288 /* SEAMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAMovieViewController.h; sourceTree = "<group>"; };
+		20EC8DAB1A92A6B200C8A288 /* SEAMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAMovieViewController.m; sourceTree = "<group>"; };
+		20F3D7C01B7F7D42006D9ECE /* XLPagerTabStripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPagerTabStripViewController.h; sourceTree = "<group>"; };
+		20F3D7C11B7F7D42006D9ECE /* XLPagerTabStripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPagerTabStripViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202B06B21C16687600AD3984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202B06B71C16687700AD3984 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20851D331A9178E7009E16FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203BE02F1C1104120079E9CA /* CoreSpotlight.framework in Frameworks */,
+				203BE0301C1104120079E9CA /* MobileCoreServices.framework in Frameworks */,
+				20C9EEE81ABEA831002EEF36 /* SystemConfiguration.framework in Frameworks */,
+				2049CEF61A9D312500201202 /* MediaPlayer.framework in Frameworks */,
+				2049CEF41A9D311F00201202 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20851D4F1A9178E7009E16FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2028529F1BA0A79500BC9197 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				20DB70541BA228E3005197B3 /* SEANewsEntryCell.h */,
+				20DB70551BA228E3005197B3 /* SEANewsEntryCell.m */,
+				2028529C1BA0A79200BC9197 /* SEANewsViewController.h */,
+				2028529D1BA0A79200BC9197 /* SEANewsViewController.m */,
+				20DB705C1BA27367005197B3 /* SEAWebViewController.h */,
+				20DB705D1BA27367005197B3 /* SEAWebViewController.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		202B06B81C16687700AD3984 /* SeansyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				202B06BF1C16687700AD3984 /* Info.plist */,
+				2062C7CF1C177E770019E844 /* SEAMoviesTableViewCell.h */,
+				2062C7D01C177E770019E844 /* SEAMoviesTableViewCell.m */,
+				202B06B91C16687700AD3984 /* SEAWidgetViewController.h */,
+				202B06BA1C16687700AD3984 /* SEAWidgetViewController.m */,
+				20C96F231C179E4F00ED4F42 /* SeansyWidget.entitlements */,
+			);
+			path = SeansyWidget;
+			sourceTree = "<group>";
+		};
+		203202731BA92148004BEE8A /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				203202761BA9219F004BEE8A /* SEAOnboardingContentViewController.h */,
+				203202771BA9219F004BEE8A /* SEAOnboardingContentViewController.m */,
+				203202781BA9219F004BEE8A /* SEAOnboardingViewController.h */,
+				203202791BA9219F004BEE8A /* SEAOnboardingViewController.m */,
+				203202741BA9219F004BEE8A /* SEAWalkthroughViewController.h */,
+				203202751BA9219F004BEE8A /* SEAWalkthroughViewController.m */,
+			);
+			path = Walkthrough;
+			sourceTree = "<group>";
+		};
+		203BE0381C125A990079E9CA /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				203BE0341C124A7A0079E9CA /* SEAAppCoordinator.h */,
+				203BE0351C124A7A0079E9CA /* SEAAppCoordinator.m */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		20478B8B1C192B8200CDC145 /* Ticketon */ = {
+			isa = PBXGroup;
+			children = (
+				20478B881C192B7700CDC145 /* SEATicketonViewController.h */,
+				20478B891C192B7700CDC145 /* SEATicketonViewController.m */,
+			);
+			path = Ticketon;
+			sourceTree = "<group>";
+		};
+		206CC91B1AA77EF200F73D0D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2094C89D1B769839006D0E33 /* ColorCube */,
+				20DB709C1BA4E9D4005197B3 /* DRViewSlideGestureRecognizer */,
+				207DEF581AC5FAC80084EBDF /* LMGeocoder */,
+				20F3D7C31B7F7E20006D9ECE /* XLPagerTabStrip */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		2071A6C51B751EB80063DE39 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				207323BA1AA7A999006914A5 /* SEASettingsViewController.h */,
+				207323BB1AA7A999006914A5 /* SEASettingsViewController.m */,
+				2009F1161AB4FC3400B224AB /* SEASettingsViewTableCell.h */,
+				2009F1171AB4FC3400B224AB /* SEASettingsViewTableCell.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		207563E21AD0B9EF00627DE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20CC021C1B7B53D500617F9F /* Common */,
+				209ADEA21BA22153003FE1EF /* Common */,
+				20BB1DAC1B734C3200F12748 /* Main */,
+				20BB1DB11B734D5100F12748 /* Map */,
+				20BB1DAF1B734C5300F12748 /* Movie */,
+				20BB1DB51B73747C00F12748 /* Movies */,
+				2028529F1BA0A79500BC9197 /* News */,
+				2071A6C51B751EB80063DE39 /* Settings */,
+				20BB1DAE1B734C4A00F12748 /* Showtime */,
+				20BB1DB61B73748E00F12748 /* Showtimes */,
+				20BB1DB01B734D4100F12748 /* Theatre */,
+				2096F6DD1B84955200360434 /* Theatres */,
+				20478B8B1C192B8200CDC145 /* Ticketon */,
+				203202731BA92148004BEE8A /* Walkthrough */,
+				20851D3D1A9178E7009E16FE /* SEAAppDelegate.h */,
+				20851D3E1A9178E7009E16FE /* SEAAppDelegate.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		207DEF581AC5FAC80084EBDF /* LMGeocoder */ = {
+			isa = PBXGroup;
+			children = (
+				207DEF591AC5FAC80084EBDF /* LMAddress.h */,
+				207DEF5A1AC5FAC80084EBDF /* LMAddress.m */,
+				207DEF5B1AC5FAC80084EBDF /* LMGeocoder.h */,
+				207DEF5C1AC5FAC80084EBDF /* LMGeocoder.m */,
+			);
+			path = LMGeocoder;
+			sourceTree = "<group>";
+		};
+		20851D2D1A9178E7009E16FE = {
+			isa = PBXGroup;
+			children = (
+				F2E545346E1BED6A74C31AB8 /* Frameworks */,
+				20851D371A9178E7009E16FE /* Products */,
+				20851D381A9178E7009E16FE /* Seansy */,
+				20851D551A9178E7009E16FE /* SeansyTests */,
+				202B06B81C16687700AD3984 /* SeansyWidget */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		20851D371A9178E7009E16FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20851D361A9178E7009E16FE /* Seansy.app */,
+				20851D521A9178E7009E16FE /* SeansyTests.xctest */,
+				202B06B51C16687600AD3984 /* SeansyWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20851D381A9178E7009E16FE /* Seansy */ = {
+			isa = PBXGroup;
+			children = (
+				207563E21AD0B9EF00627DE7 /* Controllers */,
+				203BE0381C125A990079E9CA /* Coordinators */,
+				2095066D1AA11128009CEF7F /* Helpers */,
+				206CC91B1AA77EF200F73D0D /* Libraries */,
+				20BFFC7A1AC303D7003B677E /* Managers */,
+				20C1BCAA1A95384100648641 /* Models */,
+				2094C8A41B776FCF006D0E33 /* Resources */,
+				209BD6AB1AD856FE003C4CAF /* Views */,
+				202D8B65207FB42000BE56E6 /* Secrets.h */,
+				20C96F241C179FDC00ED4F42 /* Seansy.entitlements */,
+			);
+			path = Seansy;
+			sourceTree = "<group>";
+		};
+		20851D391A9178E7009E16FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20851D3A1A9178E7009E16FE /* Info.plist */,
+				202150501AC500B60005C6A5 /* LaunchScreen.xib */,
+				201E80691BF7F336004DA462 /* Seansy-Prefix.pch */,
+				20851D3B1A9178E7009E16FE /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20851D551A9178E7009E16FE /* SeansyTests */ = {
+			isa = PBXGroup;
+			children = (
+				20851D561A9178E7009E16FE /* Supporting Files */,
+				20851D581A9178E7009E16FE /* SeansyTests.m */,
+			);
+			path = SeansyTests;
+			sourceTree = "<group>";
+		};
+		20851D561A9178E7009E16FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20851D571A9178E7009E16FE /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2094C89D1B769839006D0E33 /* ColorCube */ = {
+			isa = PBXGroup;
+			children = (
+				2094C89E1B769839006D0E33 /* CCColorCube.h */,
+				2094C89F1B769839006D0E33 /* CCColorCube.m */,
+				2094C8A01B769839006D0E33 /* CCLocalMaximum.h */,
+				2094C8A11B769839006D0E33 /* CCLocalMaximum.m */,
+			);
+			path = ColorCube;
+			sourceTree = "<group>";
+		};
+		2094C8A41B776FCF006D0E33 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2094C8B01B7776A1006D0E33 /* Fonts */,
+				20851D391A9178E7009E16FE /* Supporting Files */,
+				20DE1CF61AB8DB3B00C81079 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2094C8B01B7776A1006D0E33 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				208AAAFE1BA6876100D43B5A /* Lato-Italic.ttf */,
+				2094C8AA1B77731C006D0E33 /* Lato-Light.ttf */,
+				2094C8AC1B777699006D0E33 /* Lato-Regular.ttf */,
+				2094C8AD1B777699006D0E33 /* Lato-Semibold.ttf */,
+				20C36B301B8C96E400D3E3D6 /* Street-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2095066D1AA11128009CEF7F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2032027D1BAB32D5004BEE8A /* AYAppStore.h */,
+				2032027E1BAB32D5004BEE8A /* AYAppStore.m */,
+				203202801BAB3385004BEE8A /* AYFeedback.h */,
+				203202811BAB3385004BEE8A /* AYFeedback.m */,
+				2095C7B31BAE36D00050A7FD /* AYMacros.h */,
+				20C6D1B41BF91F1A0059CE9E /* CLLocation+SEAHelpers.h */,
+				20C6D1B51BF91F1A0059CE9E /* CLLocation+SEAHelpers.m */,
+				201660ED1B7A224400EFB6C8 /* NSDate+SEAHelpers.h */,
+				201660EE1B7A224400EFB6C8 /* NSDate+SEAHelpers.m */,
+				20478B7D1C18E93F00CDC145 /* NSString+SEAHelpers.h */,
+				20478B7E1C18E93F00CDC145 /* NSString+SEAHelpers.m */,
+				2049CF011A9DAC1500201202 /* SEAConstants.h */,
+				2049CF021A9DAC1500201202 /* SEAConstants.m */,
+				20ADA0C81A943F7000D0E1AA /* UIColor+SEAHelpers.h */,
+				20ADA0C91A943F7000D0E1AA /* UIColor+SEAHelpers.m */,
+				207563DF1AD0973200627DE7 /* UIFont+SEASizes.h */,
+				207563E01AD0973200627DE7 /* UIFont+SEASizes.m */,
+				20CA27E71A93804D00D4E97A /* UIImage+SEAHelpers.h */,
+				20CA27E81A93804D00D4E97A /* UIImage+SEAHelpers.m */,
+				2095066A1AA10DDC009CEF7F /* UILabel+SEAHelpers.h */,
+				2095066B1AA10DDC009CEF7F /* UILabel+SEAHelpers.m */,
+				207906711AA3B90F0052FF5A /* UINavigationItem+Loading.h */,
+				207906721AA3B90F0052FF5A /* UINavigationItem+Loading.m */,
+				2095C7B41BAE36D00050A7FD /* UIView+AYUtils.h */,
+				2095C7B51BAE36D00050A7FD /* UIView+AYUtils.m */,
+				20563CFF1AD328E6008366E6 /* UIWindow+SEAHelpers.h */,
+				20563D001AD328E6008366E6 /* UIWindow+SEAHelpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2096F6DD1B84955200360434 /* Theatres */ = {
+			isa = PBXGroup;
+			children = (
+				2096F6DE1B84958000360434 /* SEATheatresViewController.h */,
+				2096F6DF1B84958000360434 /* SEATheatresViewController.m */,
+			);
+			path = Theatres;
+			sourceTree = "<group>";
+		};
+		209ADEA21BA22153003FE1EF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				203202701BA9163F004BEE8A /* SEAActivityViewController.h */,
+				203202711BA9163F004BEE8A /* SEAActivityViewController.m */,
+				2079A6A71B7B3A6900ADF6E2 /* SEAAnimatedNavigationController.h */,
+				2079A6A81B7B3A6900ADF6E2 /* SEAAnimatedNavigationController.m */,
+				20CC021D1B7B53D500617F9F /* SEAZoomTransitionAnimator.h */,
+				20CC021E1B7B53D500617F9F /* SEAZoomTransitionAnimator.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		209BD6AB1AD856FE003C4CAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20C36B321B8CC46A00D3E3D6 /* Movies Filter */,
+				20B932B31B8DB4AB009301F4 /* Section Header View */,
+				20B932B21B8DB482009301F4 /* Showtimes Cell */,
+				2013D0331BF6C018008D0150 /* SEAActionSheet.h */,
+				2013D0341BF6C018008D0150 /* SEAActionSheet.m */,
+				2013D0351BF6C018008D0150 /* SEAAlertView.h */,
+				2013D0361BF6C018008D0150 /* SEAAlertView.m */,
+				204389D61B8619B2008B6378 /* SEAArrowIcon.h */,
+				204389D71B8619B2008B6378 /* SEAArrowIcon.m */,
+				203BE03C1C125CE80079E9CA /* SEAErrorView.h */,
+				203BE03D1C125CE80079E9CA /* SEAErrorView.m */,
+				206642171C1B958B008429A0 /* SEANavigationBarTitleView.h */,
+				206642181C1B958B008429A0 /* SEANavigationBarTitleView.m */,
+				207906741AA3BC3B0052FF5A /* SEAProgressView.h */,
+				207906751AA3BC3B0052FF5A /* SEAProgressView.m */,
+				2063B0A01AC86629001A0B8F /* SEAPromptView.h */,
+				2063B0A11AC86629001A0B8F /* SEAPromptView.m */,
+				20DB70941BA4B509005197B3 /* SEASplashView.h */,
+				20DB70951BA4B509005197B3 /* SEASplashView.m */,
+				2009F10D1AB4F08600B224AB /* SEAStarRatingView.h */,
+				2009F10E1AB4F08600B224AB /* SEAStarRatingView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20B932B21B8DB482009301F4 /* Showtimes Cell */ = {
+			isa = PBXGroup;
+			children = (
+				207323BD1AA7C1E7006914A5 /* SEAShowtimesCarousel.h */,
+				207323BE1AA7C1E7006914A5 /* SEAShowtimesCarousel.m */,
+				2026A4981ABCE301000CA606 /* SEAShowtimesCarouselWithLabel.h */,
+				2026A4991ABCE301000CA606 /* SEAShowtimesCarouselWithLabel.m */,
+				20C36B361B8DAAB400D3E3D6 /* SEAShowtimesCell.h */,
+				20C36B371B8DAAB400D3E3D6 /* SEAShowtimesCell.m */,
+				20CF6D651AAAEC8100996D2C /* SEAShowtimesItemCell.h */,
+				20CF6D661AAAEC8100996D2C /* SEAShowtimesItemCell.m */,
+				20C36B331B8CC49000D3E3D6 /* SEAShowtimesList.h */,
+				20C36B341B8CC49000D3E3D6 /* SEAShowtimesList.m */,
+			);
+			path = "Showtimes Cell";
+			sourceTree = "<group>";
+		};
+		20B932B31B8DB4AB009301F4 /* Section Header View */ = {
+			isa = PBXGroup;
+			children = (
+				20B5A58C1AAFA9D800E778CB /* SEAShowtimesSectionHeaderView.h */,
+				20B5A58D1AAFA9D800E778CB /* SEAShowtimesSectionHeaderView.m */,
+			);
+			path = "Section Header View";
+			sourceTree = "<group>";
+		};
+		20BB1DAC1B734C3200F12748 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				203761391B7E0B7000B09F38 /* SEAMainTabBarController.h */,
+				20AA9CD91BF6EF9000F2A227 /* SEAMainTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		20BB1DAE1B734C4A00F12748 /* Showtime */ = {
+			isa = PBXGroup;
+			children = (
+				2071A6BF1B748DB90063DE39 /* SEAShowtimeInfoView.h */,
+				2071A6C01B748DB90063DE39 /* SEAShowtimeInfoView.m */,
+				20459BFB1ACCFA5F003A4D04 /* SEAShowtimeViewController.h */,
+				20459BFC1ACCFA60003A4D04 /* SEAShowtimeViewController.m */,
+			);
+			path = Showtime;
+			sourceTree = "<group>";
+		};
+		20BB1DAF1B734C5300F12748 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				20CA27E51A93804D00D4E97A /* SEAGlassScrollView.h */,
+				20CA27E61A93804D00D4E97A /* SEAGlassScrollView.m */,
+				20D17E9A1B7B321E00ECBC25 /* SEAMovieDetailsInfoView.h */,
+				20D17E9B1B7B321E00ECBC25 /* SEAMovieDetailsInfoView.m */,
+				2026A4871ABB86D3000CA606 /* SEAMovieShowtimesView.h */,
+				2026A4881ABB86D3000CA606 /* SEAMovieShowtimesView.m */,
+				20EC8DAA1A92A6B200C8A288 /* SEAMovieViewController.h */,
+				20EC8DAB1A92A6B200C8A288 /* SEAMovieViewController.m */,
+				20B5A5861AADE67A00E778CB /* SEAPersonsCarouselCell.h */,
+				20B5A5871AADE67A00E778CB /* SEAPersonsCarouselCell.m */,
+				203BE02A1C0FEBF40079E9CA /* SEAReviewsCarouselCell.h */,
+				203BE02B1C0FEBF40079E9CA /* SEAReviewsCarouselCell.m */,
+				203D8F8A1C0B96D900426A5F /* SEAStillsCarouselCell.h */,
+				203D8F8B1C0B96D900426A5F /* SEAStillsCarouselCell.m */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		20BB1DB01B734D4100F12748 /* Theatre */ = {
+			isa = PBXGroup;
+			children = (
+				2026A49B1ABD3662000CA606 /* SEATheatreViewController.h */,
+				2026A49C1ABD3662000CA606 /* SEATheatreViewController.m */,
+			);
+			path = Theatre;
+			sourceTree = "<group>";
+		};
+		20BB1DB11B734D5100F12748 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				2063B13B1AC8C7FF001A0B8F /* SEAMapViewController.h */,
+				2063B13C1AC8C7FF001A0B8F /* SEAMapViewController.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		20BB1DB51B73747C00F12748 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				20478B811C18F8C000CDC145 /* SEAFeaturedMovieView.h */,
+				20478B821C18F8C000CDC145 /* SEAFeaturedMovieView.m */,
+				20851D761A928FA4009E16FE /* SEAMoviesGridCell.h */,
+				20851D771A928FA4009E16FE /* SEAMoviesGridCell.m */,
+				205BC5661B80F150006093D8 /* SEAMoviesGridFeaturedMoviesView.h */,
+				205BC5671B80F150006093D8 /* SEAMoviesGridFeaturedMoviesView.m */,
+				20DE1CF81AB904EF00C81079 /* SEAMoviesGridSectionHeader.h */,
+				20DE1CF91AB904EF00C81079 /* SEAMoviesGridSectionHeader.m */,
+				20851D641A917920009E16FE /* SEAMoviesPagerChildItemViewController.h */,
+				20851D651A917920009E16FE /* SEAMoviesPagerChildItemViewController.m */,
+				209506671AA0ED20009CEF7F /* SEAMoviesPagerViewController.h */,
+				209506681AA0ED20009CEF7F /* SEAMoviesPagerViewController.m */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		20BB1DB61B73748E00F12748 /* Showtimes */ = {
+			isa = PBXGroup;
+			children = (
+				203715941B8B108A00958DD0 /* SEAPickerView.h */,
+				203715951B8B108A00958DD0 /* SEAPickerView.m */,
+				20040EA81B84B86A00B954E5 /* SEAShowtimesPagerChildItemViewController.h */,
+				20040EA91B84B86A00B954E5 /* SEAShowtimesPagerChildItemViewController.m */,
+				20040EA51B84B39F00B954E5 /* SEAShowtimesPagerViewController.h */,
+				20040EA61B84B39F00B954E5 /* SEAShowtimesPagerViewController.m */,
+			);
+			path = Showtimes;
+			sourceTree = "<group>";
+		};
+		20BFFC7A1AC303D7003B677E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2079069A1AA4CBB40052FF5A /* SEADataManager.h */,
+				2079069B1AA4CBB40052FF5A /* SEADataManager.m */,
+				20DE1CE31AB7F67200C81079 /* SEALocationManager.h */,
+				20DE1CE41AB7F67200C81079 /* SEALocationManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		20C1BCAA1A95384100648641 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2094C8B11B778887006D0E33 /* SEABackdrop.h */,
+				2094C8B21B778887006D0E33 /* SEABackdrop.m */,
+				20817FDA1C0539AE0050649F /* SEAModel.h */,
+				20817FDB1C0539AE0050649F /* SEAModel.m */,
+				20851D671A91792A009E16FE /* SEAMovie.h */,
+				20851D681A91792A009E16FE /* SEAMovie.m */,
+				209ADE9C1BA21692003FE1EF /* SEANewsEntry.h */,
+				209ADE9D1BA21692003FE1EF /* SEANewsEntry.m */,
+				20478B841C1910F600CDC145 /* SEAPoster.h */,
+				20478B851C1910F600CDC145 /* SEAPoster.m */,
+				20851D691A91792A009E16FE /* SEAShowtime.h */,
+				20851D6A1A91792A009E16FE /* SEAShowtime.m */,
+				203D8F901C0BB95400426A5F /* SEAStill.h */,
+				203D8F911C0BB95400426A5F /* SEAStill.m */,
+				20851D6B1A91792A009E16FE /* SEATheatre.h */,
+				20851D6C1A91792A009E16FE /* SEATheatre.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20C36B321B8CC46A00D3E3D6 /* Movies Filter */ = {
+			isa = PBXGroup;
+			children = (
+				209AC3FE1AB625C90067EAB8 /* SEAMoviesFilter.h */,
+				209AC3FF1AB625C90067EAB8 /* SEAMoviesFilter.m */,
+				209AC4011AB62FBB0067EAB8 /* SEAMoviesFilterGenresSelectorCell.h */,
+				209AC4021AB62FBB0067EAB8 /* SEAMoviesFilterGenresSelectorCell.m */,
+			);
+			path = "Movies Filter";
+			sourceTree = "<group>";
+		};
+		20CC021C1B7B53D500617F9F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				20040EA21B84AC3100B954E5 /* SEAPagerChildItemViewController.h */,
+				20040EA31B84AC3100B954E5 /* SEAPagerChildItemViewController.m */,
+				20040E9F1B84AAC600B954E5 /* SEAPagerViewController.h */,
+				20040EA01B84AAC600B954E5 /* SEAPagerViewController.m */,
+				203BE0371C1254B30079E9CA /* SEATabBarItemViewControllerDelegate.h */,
+				202852A01BA0B03500BC9197 /* SEATableViewController.h */,
+				202852A11BA0B03500BC9197 /* SEATableViewController.m */,
+			);
+			name = Common;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		20DB709C1BA4E9D4005197B3 /* DRViewSlideGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				20DB709D1BA4E9D4005197B3 /* DRViewSlideAction.h */,
+				20DB709E1BA4E9D4005197B3 /* DRViewSlideAction.m */,
+				20DB709F1BA4E9D4005197B3 /* DRViewSlideActionView.h */,
+				20DB70A01BA4E9D4005197B3 /* DRViewSlideActionView.m */,
+				20DB70A11BA4E9D4005197B3 /* DRViewSlideGestureRecognizer.h */,
+				20DB70A21BA4E9D4005197B3 /* DRViewSlideGestureRecognizer.m */,
+			);
+			path = DRViewSlideGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		20F3D7C31B7F7E20006D9ECE /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				201293021B7FB34900AED9DE /* XLButtonBarPagerTabStripViewController.h */,
+				201293011B7FB34900AED9DE /* XLButtonBarPagerTabStripViewController.m */,
+				201293001B7FB34900AED9DE /* XLButtonBarView.h */,
+				201292FF1B7FB34900AED9DE /* XLButtonBarView.m */,
+				201292FE1B7FB34900AED9DE /* XLButtonBarViewCell.h */,
+				201292FD1B7FB34900AED9DE /* XLButtonBarViewCell.m */,
+				20F3D7C01B7F7D42006D9ECE /* XLPagerTabStripViewController.h */,
+				20F3D7C11B7F7D42006D9ECE /* XLPagerTabStripViewController.m */,
+			);
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+		F2E545346E1BED6A74C31AB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				203BE02D1C1104120079E9CA /* CoreSpotlight.framework */,
+				203BE02E1C1104120079E9CA /* MobileCoreServices.framework */,
+				20C9EEE71ABEA831002EEF36 /* SystemConfiguration.framework */,
+				2049CEF51A9D312500201202 /* MediaPlayer.framework */,
+				2049CEF31A9D311F00201202 /* JavaScriptCore.framework */,
+				202B06B61C16687700AD3984 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202B06B41C16687600AD3984 /* SeansyWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202B06C51C16687700AD3984 /* Build configuration list for PBXNativeTarget "SeansyWidget" */;
+			buildPhases = (
+				202B06B11C16687600AD3984 /* Sources */,
+				202B06B21C16687600AD3984 /* Frameworks */,
+				202B06B31C16687600AD3984 /* Resources */,
+				20C85BFA1C222F6C00D85ACC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeansyWidget;
+			productName = "Seansy Widget";
+			productReference = 202B06B51C16687600AD3984 /* SeansyWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		20851D351A9178E7009E16FE /* Seansy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20851D5C1A9178E7009E16FE /* Build configuration list for PBXNativeTarget "Seansy" */;
+			buildPhases = (
+				20851D321A9178E7009E16FE /* Sources */,
+				20851D331A9178E7009E16FE /* Frameworks */,
+				20851D341A9178E7009E16FE /* Resources */,
+				200C63E31B7D0D5F00FEE754 /* Link Fabric */,
+				202B06C61C16687700AD3984 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202B06C11C16687700AD3984 /* PBXTargetDependency */,
+			);
+			name = Seansy;
+			productName = Seansy;
+			productReference = 20851D361A9178E7009E16FE /* Seansy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20851D511A9178E7009E16FE /* SeansyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20851D5F1A9178E7009E16FE /* Build configuration list for PBXNativeTarget "SeansyTests" */;
+			buildPhases = (
+				20851D4E1A9178E7009E16FE /* Sources */,
+				20851D4F1A9178E7009E16FE /* Frameworks */,
+				20851D501A9178E7009E16FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20851D541A9178E7009E16FE /* PBXTargetDependency */,
+			);
+			name = SeansyTests;
+			productName = SeansyTests;
+			productReference = 20851D521A9178E7009E16FE /* SeansyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20851D2E1A9178E7009E16FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ayan Yenbekbay";
+				TargetAttributes = {
+					202B06B41C16687600AD3984 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = X5764AN68D;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					20851D351A9178E7009E16FE = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = X5764AN68D;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					20851D511A9178E7009E16FE = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = X5764AN68D;
+						TestTargetID = 20851D351A9178E7009E16FE;
+					};
+				};
+			};
+			buildConfigurationList = 20851D311A9178E7009E16FE /* Build configuration list for PBXProject "Seansy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = Russian;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ru,
+			);
+			mainGroup = 20851D2D1A9178E7009E16FE;
+			productRefGroup = 20851D371A9178E7009E16FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20851D351A9178E7009E16FE /* Seansy */,
+				20851D511A9178E7009E16FE /* SeansyTests */,
+				202B06B41C16687600AD3984 /* SeansyWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		202B06B31C16687600AD3984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20851D341A9178E7009E16FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208AAAFF1BA689C100D43B5A /* Lato-Italic.ttf in Resources */,
+				20C36B311B8C96F200D3E3D6 /* Street-Semibold.ttf in Resources */,
+				2094C8AF1B77769A006D0E33 /* Lato-Semibold.ttf in Resources */,
+				2094C8AB1B77731C006D0E33 /* Lato-Light.ttf in Resources */,
+				2094C8AE1B777699006D0E33 /* Lato-Regular.ttf in Resources */,
+				202150511AC500B60005C6A5 /* LaunchScreen.xib in Resources */,
+				20DE1CF71AB8DB3B00C81079 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20851D501A9178E7009E16FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		200C63E31B7D0D5F00FEE754 /* Link Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Link Fabric";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 337e6662c13dc165ee9a5114becf5ff652b87ff1 bd9cb4e47506f14d584ea3b5dcc675ed06838ee850d59f876f81ce0267adcefd";
+		};
+		20C85BFA1C222F6C00D85ACC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nif [[ -d \"Frameworks\" ]]; then\n    rm -fr Frameworks\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202B06B11C16687600AD3984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20478B871C19159800CDC145 /* SEAPoster.m in Sources */,
+				20478B801C18EA1B00CDC145 /* NSString+SEAHelpers.m in Sources */,
+				20910EC81C17A37D00AF1A71 /* SEAMoviesTableViewCell.m in Sources */,
+				20910EC71C17A36800AF1A71 /* SEAWidgetViewController.m in Sources */,
+				20C96F221C179A1900ED4F42 /* SEAMoviesFilterGenresSelectorCell.m in Sources */,
+				20C96F0E1C1799C000ED4F42 /* CLLocation+SEAHelpers.m in Sources */,
+				20C96F101C1799C000ED4F42 /* NSDate+SEAHelpers.m in Sources */,
+				20C96F121C1799C000ED4F42 /* SEAConstants.m in Sources */,
+				20C96F141C1799C000ED4F42 /* UIColor+SEAHelpers.m in Sources */,
+				20C96F161C1799C000ED4F42 /* UIFont+SEASizes.m in Sources */,
+				20C96F1A1C1799C000ED4F42 /* UILabel+SEAHelpers.m in Sources */,
+				20C96F1E1C1799C000ED4F42 /* UIView+AYUtils.m in Sources */,
+				20C96F031C17994B00ED4F42 /* CCColorCube.m in Sources */,
+				20C96F051C17994B00ED4F42 /* CCLocalMaximum.m in Sources */,
+				20C96F071C17994B00ED4F42 /* SEAMoviesFilter.m in Sources */,
+				20C96EED1C17988E00ED4F42 /* LMAddress.m in Sources */,
+				20C96EEF1C17988E00ED4F42 /* LMGeocoder.m in Sources */,
+				20C96EF11C17988E00ED4F42 /* SEADataManager.m in Sources */,
+				20C96EF31C17988E00ED4F42 /* SEALocationManager.m in Sources */,
+				20C96EF51C17988E00ED4F42 /* SEABackdrop.m in Sources */,
+				20C96EF71C17988E00ED4F42 /* SEAModel.m in Sources */,
+				20C96EF91C17988E00ED4F42 /* SEAMovie.m in Sources */,
+				20C96EFB1C17988E00ED4F42 /* SEANewsEntry.m in Sources */,
+				20C96EFD1C17988E00ED4F42 /* SEAShowtime.m in Sources */,
+				20C96EFF1C17988E00ED4F42 /* SEAStill.m in Sources */,
+				20C96F011C17988E00ED4F42 /* SEATheatre.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20851D321A9178E7009E16FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C6D1B61BF91F1A0059CE9E /* CLLocation+SEAHelpers.m in Sources */,
+				2063B1821AC8DA2A001A0B8F /* SEAMapViewController.m in Sources */,
+				2032027B1BA9219F004BEE8A /* SEAOnboardingContentViewController.m in Sources */,
+				2013D0371BF6C018008D0150 /* SEAActionSheet.m in Sources */,
+				20851D781A928FA4009E16FE /* SEAMoviesGridCell.m in Sources */,
+				20D17E9C1B7B321E00ECBC25 /* SEAMovieDetailsInfoView.m in Sources */,
+				20C36B351B8CC49000D3E3D6 /* SEAShowtimesList.m in Sources */,
+				20478B7F1C18E93F00CDC145 /* NSString+SEAHelpers.m in Sources */,
+				203D8F921C0BB95400426A5F /* SEAStill.m in Sources */,
+				2079069C1AA4CBB40052FF5A /* SEADataManager.m in Sources */,
+				203BE03E1C125CE80079E9CA /* SEAErrorView.m in Sources */,
+				20CC021F1B7B53D500617F9F /* SEAZoomTransitionAnimator.m in Sources */,
+				203202721BA9163F004BEE8A /* SEAActivityViewController.m in Sources */,
+				20CA27E91A93804D00D4E97A /* SEAGlassScrollView.m in Sources */,
+				20478B861C1910F600CDC145 /* SEAPoster.m in Sources */,
+				20DB705E1BA27367005197B3 /* SEAWebViewController.m in Sources */,
+				20040EA41B84AC3100B954E5 /* SEAPagerChildItemViewController.m in Sources */,
+				2063B0C21AC86629001A0B8F /* SEAPromptView.m in Sources */,
+				209ADE9E1BA21692003FE1EF /* SEANewsEntry.m in Sources */,
+				20851D661A917920009E16FE /* SEAMoviesPagerChildItemViewController.m in Sources */,
+				209AC4001AB625C90067EAB8 /* SEAMoviesFilter.m in Sources */,
+				20851D3F1A9178E7009E16FE /* SEAAppDelegate.m in Sources */,
+				203D8F8C1C0B96D900426A5F /* SEAStillsCarouselCell.m in Sources */,
+				203715961B8B108A00958DD0 /* SEAPickerView.m in Sources */,
+				20F3D7C21B7F7D42006D9ECE /* XLPagerTabStripViewController.m in Sources */,
+				20851D6D1A91792A009E16FE /* SEAMovie.m in Sources */,
+				203BE0361C124A7A0079E9CA /* SEAAppCoordinator.m in Sources */,
+				201293031B7FB34900AED9DE /* XLButtonBarViewCell.m in Sources */,
+				204389D81B8619B2008B6378 /* SEAArrowIcon.m in Sources */,
+				2071A6C11B748DB90063DE39 /* SEAShowtimeInfoView.m in Sources */,
+				20EC8DAC1A92A6B200C8A288 /* SEAMovieViewController.m in Sources */,
+				209AC4031AB62FBB0067EAB8 /* SEAMoviesFilterGenresSelectorCell.m in Sources */,
+				20CA27EA1A93804D00D4E97A /* UIImage+SEAHelpers.m in Sources */,
+				20CF6D671AAAEC8100996D2C /* SEAShowtimesItemCell.m in Sources */,
+				2032027A1BA9219F004BEE8A /* SEAWalkthroughViewController.m in Sources */,
+				206642191C1B958B008429A0 /* SEANavigationBarTitleView.m in Sources */,
+				201293051B7FB34900AED9DE /* XLButtonBarPagerTabStripViewController.m in Sources */,
+				2094C8A31B769839006D0E33 /* CCLocalMaximum.m in Sources */,
+				2009F10F1AB4F08600B224AB /* SEAStarRatingView.m in Sources */,
+				20ADA0CA1A943F7000D0E1AA /* UIColor+SEAHelpers.m in Sources */,
+				20DB70561BA228E3005197B3 /* SEANewsEntryCell.m in Sources */,
+				2009F1181AB4FC3400B224AB /* SEASettingsViewTableCell.m in Sources */,
+				20040EAA1B84B86A00B954E5 /* SEAShowtimesPagerChildItemViewController.m in Sources */,
+				2094C8B31B778887006D0E33 /* SEABackdrop.m in Sources */,
+				2032027F1BAB32D5004BEE8A /* AYAppStore.m in Sources */,
+				20DE1CE51AB7F67200C81079 /* SEALocationManager.m in Sources */,
+				20DB70A41BA4E9D4005197B3 /* DRViewSlideActionView.m in Sources */,
+				207563E11AD0973200627DE7 /* UIFont+SEASizes.m in Sources */,
+				202852A21BA0B03500BC9197 /* SEATableViewController.m in Sources */,
+				2095C7B61BAE36D00050A7FD /* UIView+AYUtils.m in Sources */,
+				207DEF5D1AC5FAC80084EBDF /* LMAddress.m in Sources */,
+				20DB70A31BA4E9D4005197B3 /* DRViewSlideAction.m in Sources */,
+				205BC5681B80F150006093D8 /* SEAMoviesGridFeaturedMoviesView.m in Sources */,
+				209506691AA0ED20009CEF7F /* SEAMoviesPagerViewController.m in Sources */,
+				20851D6F1A91792A009E16FE /* SEATheatre.m in Sources */,
+				2026A4891ABB86D3000CA606 /* SEAMovieShowtimesView.m in Sources */,
+				20C36B381B8DAAB400D3E3D6 /* SEAShowtimesCell.m in Sources */,
+				201293041B7FB34900AED9DE /* XLButtonBarView.m in Sources */,
+				2032027C1BA9219F004BEE8A /* SEAOnboardingViewController.m in Sources */,
+				2013D0381BF6C018008D0150 /* SEAAlertView.m in Sources */,
+				207323BF1AA7C1E7006914A5 /* SEAShowtimesCarousel.m in Sources */,
+				20040EA71B84B39F00B954E5 /* SEAShowtimesPagerViewController.m in Sources */,
+				203202821BAB3385004BEE8A /* AYFeedback.m in Sources */,
+				20478B831C18F8C000CDC145 /* SEAFeaturedMovieView.m in Sources */,
+				2049CF031A9DAC1500201202 /* SEAConstants.m in Sources */,
+				20DB70A51BA4E9D4005197B3 /* DRViewSlideGestureRecognizer.m in Sources */,
+				207DEF5E1AC5FAC80084EBDF /* LMGeocoder.m in Sources */,
+				2096F6E01B84958000360434 /* SEATheatresViewController.m in Sources */,
+				2094C8A21B769839006D0E33 /* CCColorCube.m in Sources */,
+				2026A49D1ABD3662000CA606 /* SEATheatreViewController.m in Sources */,
+				20459BFD1ACCFA60003A4D04 /* SEAShowtimeViewController.m in Sources */,
+				20851D6E1A91792A009E16FE /* SEAShowtime.m in Sources */,
+				20040EA11B84AAC600B954E5 /* SEAPagerViewController.m in Sources */,
+				20DB70971BA4B509005197B3 /* SEASplashView.m in Sources */,
+				20B5A58E1AAFA9D800E778CB /* SEAShowtimesSectionHeaderView.m in Sources */,
+				20AA9CDA1BF6EF9000F2A227 /* SEAMainTabBarController.m in Sources */,
+				20851D3C1A9178E7009E16FE /* main.m in Sources */,
+				2079A6A91B7B3A6900ADF6E2 /* SEAAnimatedNavigationController.m in Sources */,
+				2026A49A1ABCE301000CA606 /* SEAShowtimesCarouselWithLabel.m in Sources */,
+				20817FDC1C0539AE0050649F /* SEAModel.m in Sources */,
+				20478B8A1C192B7700CDC145 /* SEATicketonViewController.m in Sources */,
+				2028529E1BA0A79200BC9197 /* SEANewsViewController.m in Sources */,
+				203BE02C1C0FEBF40079E9CA /* SEAReviewsCarouselCell.m in Sources */,
+				20563D011AD328E6008366E6 /* UIWindow+SEAHelpers.m in Sources */,
+				201660EF1B7A224400EFB6C8 /* NSDate+SEAHelpers.m in Sources */,
+				207906761AA3BC3B0052FF5A /* SEAProgressView.m in Sources */,
+				20DE1CFA1AB904EF00C81079 /* SEAMoviesGridSectionHeader.m in Sources */,
+				20B5A5881AADE67A00E778CB /* SEAPersonsCarouselCell.m in Sources */,
+				207906731AA3B90F0052FF5A /* UINavigationItem+Loading.m in Sources */,
+				2095066C1AA10DDC009CEF7F /* UILabel+SEAHelpers.m in Sources */,
+				207323BC1AA7A999006914A5 /* SEASettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20851D4E1A9178E7009E16FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20851D591A9178E7009E16FE /* SeansyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		202B06C11C16687700AD3984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202B06B41C16687600AD3984 /* SeansyWidget */;
+			targetProxy = 202B06C01C16687700AD3984 /* PBXContainerItemProxy */;
+		};
+		20851D541A9178E7009E16FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20851D351A9178E7009E16FE /* Seansy */;
+			targetProxy = 20851D531A9178E7009E16FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		202B06C41C16687700AD3984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SeansyWidget/SeansyWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seansy/Resources/Supporting Files/Seansy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TARGET_IS_EXTENSION=1",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = SeansyWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.yenbekbay.Seansy.SeansyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2062C7D21C1794150019E844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		2062C7D31C1794150019E844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Seansy/Seansy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Seansy",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seansy/Resources/Supporting Files/Seansy-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_PEDANTIC = NO;
+				INFOPLIST_FILE = "Seansy/Resources/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Seansy",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Seansy;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2062C7D41C1794150019E844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "SeansyTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = SeansyTests;
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seansy.app/Seansy";
+			};
+			name = Debug;
+		};
+		2062C7D51C1794150019E844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SeansyWidget/SeansyWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seansy/Resources/Supporting Files/Seansy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TARGET_IS_EXTENSION=1",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = SeansyWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.yenbekbay.Seansy.SeansyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		20851D5B1A9178E7009E16FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20851D5E1A9178E7009E16FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Seansy/Seansy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Seansy",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seansy/Resources/Supporting Files/Seansy-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_PEDANTIC = NO;
+				INFOPLIST_FILE = "Seansy/Resources/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Seansy",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Seansy;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		20851D611A9178E7009E16FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "SeansyTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = SeansyTests;
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seansy.app/Seansy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202B06C51C16687700AD3984 /* Build configuration list for PBXNativeTarget "SeansyWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202B06C41C16687700AD3984 /* Release */,
+				2062C7D51C1794150019E844 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20851D311A9178E7009E16FE /* Build configuration list for PBXProject "Seansy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20851D5B1A9178E7009E16FE /* Release */,
+				2062C7D21C1794150019E844 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20851D5C1A9178E7009E16FE /* Build configuration list for PBXNativeTarget "Seansy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20851D5E1A9178E7009E16FE /* Release */,
+				2062C7D31C1794150019E844 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20851D5F1A9178E7009E16FE /* Build configuration list for PBXNativeTarget "SeansyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20851D611A9178E7009E16FE /* Release */,
+				2062C7D41C1794150019E844 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20851D2E1A9178E7009E16FE /* Project object */;
+}

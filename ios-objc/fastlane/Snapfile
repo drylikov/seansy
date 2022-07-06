@@ -1,0 +1,16 @@
+devices([
+  "iPhone 6",
+  "iPhone 6 Plus",
+  "iPhone 5s",
+  "iPhone 4s"
+])
+
+languages([
+  'ru'
+])
+
+screenshots_path "./screenshots"
+
+clear_previous_screenshots
+scheme 'Seansy'
+custom_build_args "GCC_PREPROCESSOR_DEFINITIONS='$(inherited) SNAPSHOT=1' OTHER_SWIFT_FLAGS='$(inherited) -DSNAPSHOT=1'"

@@ -1,0 +1,48 @@
+source 'https://github.com/CocoaPods/Specs'
+
+platform :ios, '8.0'
+
+inhibit_all_warnings!
+
+target 'Seansy' do
+  pod 'AFNetworking', '~> 2.6'
+  pod 'AMPopTip', '~> 0.9'
+  pod 'Analytics/Segmentio', '~> 2.0'
+  pod 'ARChromeActivity', :git => 'https://github.com/yenbekbay/ARChromeActivity.git'
+  pod 'AYSlidingPickerView', '~> 0.1'
+  pod 'CocoaLumberjack', '~> 2.2'
+  pod 'Crashlytics', '~> 3.4'
+  pod 'DAKeyboardControl', '~> 2.4'
+  pod 'DeviceUtil', '~> 1.2'
+  pod 'Doppelganger', :git => 'https://github.com/yenbekbay/Doppelganger.git'
+  pod 'Fabric', '~> 1.6'
+  pod 'GTMNSStringHTMLAdditions', '~> 0.2'
+  pod 'LGFilterView', '~> 1.0.3'
+  pod 'Mapbox-iOS-SDK', '1.6.0'
+  pod 'MMParallaxCell', '~> 1.2'
+  pod 'MYNStickyFlowLayout', '~> 0.1'
+  pod 'NJKWebViewProgress', :git => 'https://github.com/yenbekbay/NJKWebViewProgress.git'
+  pod 'NYTPhotoViewer', :git => 'https://github.com/yenbekbay/NYTPhotoViewer.git'
+  pod 'Ottran', '~> 1.0.2'
+  pod 'Reachability', '~> 3.2'
+  pod 'ReactiveCocoa', '~> 2.4'
+  pod 'SDWebImage', '~> 3.7'
+  pod 'SVWebViewController', '~> 1.0'
+  pod 'TUSafariActivity', '~> 1.0'
+  pod 'UICollectionViewLeftAlignedLayout', '~> 1.0'
+  pod 'UITextView+Placeholder', '~> 1.1'
+  pod 'XCDYouTubeKit', '~> 2.3'
+  pod 'YandexMobileMetrica', '~> 2.1'
+
+  pod 'EUMTouchPointView', :configurations => ['Debug']
+  pod 'SimulatorStatusMagic', :configurations => ['Debug']
+end
+
+target 'SeansyWidget' do
+  pod 'AFNetworking', '~> 2.6'
+  pod 'CocoaLumberjack', '~> 2.2'
+  pod 'Doppelganger', :git => 'https://github.com/yenbekbay/Doppelganger.git'
+  pod 'Ottran', '~> 1.0.2'
+  pod 'ReactiveCocoa', '~> 2.4'
+  pod 'SDWebImage', '~> 3.7'
+end

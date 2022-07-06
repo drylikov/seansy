@@ -1,0 +1,36 @@
+disabled_rules:
+  - force_try
+  - force_cast
+included:
+  - Seansy
+excluded:
+  - Pods
+  - Seansy/Extensions/UIImageEffects.swift
+line_length: 120
+type_body_length:
+  warning: 250
+  error: 300
+file_length:
+  warning: 400
+  error: 500
+type_name:
+  min_length: 3
+  max_length:
+    warning: 40
+    error: 50
+  excluded:
+    - Up
+    - OK
+    - G
+    - PG
+    - R
+variable_name:
+  min_length: 3
+  excluded:
+    - Cache
+    - id
+    - to
+    - x
+    - y
+    - a
+    - b

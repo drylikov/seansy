@@ -1,0 +1,13 @@
+{
+  "_id": "56c417a363f1caeb4434526c",
+  "name": "Cinemax (Dostyk Plaza) Dolby Atmos 3D",
+  "city": "Алматы",
+  "address": "Самал-2, пр.Достык 111, уг.ул. Жолдасбекова, ТРЦ Dostyk Plaza",
+  "phone": "77272220077",
+  "photoUrl": "http://kino.kz/images/cinemas/119.jpg",
+  "location": {
+    "lat": 43.2331632,
+    "lng": 76.9565775
+  },
+  "timeCreated": "2016-02-17T06:48:03.713Z"
+}

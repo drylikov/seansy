@@ -1,0 +1,55 @@
+update_fastlane
+default_platform :ios
+
+platform :ios do
+  before_all do
+    cocoapods
+  end
+
+  desc "Build and sign the app"
+  lane :build do |options|
+    sigh(
+      app_identifier: "kz.yenbekbay.Seansy",
+      output_path: "./fastlane/profiles"
+    )
+    sigh(
+      app_identifier: "kz.yenbekbay.Seansy.SeansyWidget",
+      output_path: "./fastlane/profiles"
+    )
+    gym(scheme: "Seansy")
+    crashlytics(
+      api_token: "REPLACE_ME",
+      build_secret: "REPLACE_ME"
+    )
+  end
+
+  desc "Submit a new version to the App Store"
+  desc "This will do the following: "
+  desc "- Make sure the profiles are up to date and download the latest one"
+  desc "- Create new screenshots and store them in `./fastlane/screenshots`"
+  desc "- Collect the app metadata from `./fastlane/metadata`"
+  desc "- Upload screenshots + app metadata"
+  desc "- Build, sign and upload the app"
+  desc "This will **not** submit the app for review."
+  lane :appstore do
+    build
+    pilot(
+      skip_submission: true
+    )
+    deliver(
+      force: true
+    )
+    commit_version_bump(
+      message: 'Version Bump by fastlane',
+      force: true
+    )
+    push_to_git_remote
+  end
+
+  after_all do |lane|
+    say "Successfully finished deployment (#{lane})!"
+    clean_build_artifacts(
+      exclude_pattern: ".*\.mobileprovision"
+    )
+  end
+end

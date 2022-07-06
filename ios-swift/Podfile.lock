@@ -1,0 +1,167 @@
+PODS:
+  - Alamofire (3.4.0)
+  - AMPopTip (0.10.2)
+  - Cheetah (0.2.6)
+  - Compass (1.4.0):
+    - Sugar
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - CryptoSwift (0.4.1)
+  - Dip (4.4.0)
+  - DrawerController (1.1.0):
+    - DrawerController/Core (= 1.1.0)
+    - DrawerController/DrawerVisualStates (= 1.1.0)
+  - DrawerController/Core (1.1.0)
+  - DrawerController/DrawerVisualStates (1.1.0):
+    - DrawerController/Core
+  - Fabric (1.6.7)
+  - FLAnimatedImage (1.0.12)
+  - FontBlaster (2.1.3)
+  - Gifu (1.2.1)
+  - Hue (1.1)
+  - InfiniteCollectionView (1.0.4)
+  - JSONWebToken (1.5.0):
+    - CryptoSwift (~> 0.4.0)
+  - Kingfisher (2.1.0)
+  - Moya/Core (6.5.0):
+    - Alamofire (~> 3.0)
+    - Result (~> 2.0)
+  - Moya/RxSwift (6.5.0):
+    - Moya/Core
+    - RxSwift (~> 2.0)
+  - MYNStickyFlowLayout (0.1.2)
+  - Nimble (3.2.0)
+  - NSObject+Rx (1.2.1):
+    - RxSwift (~> 2.1)
+  - NYTPhotoViewer (1.1.0):
+    - NYTPhotoViewer/AnimatedGifSupport (= 1.1.0)
+    - NYTPhotoViewer/Core (= 1.1.0)
+  - NYTPhotoViewer/AnimatedGifSupport (1.1.0):
+    - FLAnimatedImage (~> 1.0.8)
+    - NYTPhotoViewer/Core
+  - NYTPhotoViewer/Core (1.1.0)
+  - Popover (0.9.1)
+  - Proposer (0.9.0)
+  - PySwiftyRegex (0.2.2)
+  - Quick (0.9.2)
+  - ReachabilitySwift (2.3.3)
+  - Result (2.0.0)
+  - Reusable (2.2.1)
+  - RxCocoa (2.5.0):
+    - RxSwift (~> 2.5)
+  - RxDataSources (0.6.1):
+    - RxCocoa (~> 2.2)
+    - RxSwift (~> 2.2)
+  - RxSwift (2.5.0)
+  - StatefulViewController (1.1)
+  - SteviaLayout (2.1.3)
+  - STZPopupView (1.0.2)
+  - Sugar (1.1.1)
+  - SwiftDate (3.0.8)
+  - SwiftyUserDefaults (2.2.0)
+  - Tactile (1.2.2)
+  - Toucan (0.5.0)
+  - Transporter (2.0.1)
+  - Unbox (1.6)
+  - VideoSplashKit (1.1.0)
+  - Whisper (2.1)
+  - XCDYouTubeKit (2.5.2)
+  - XCGLogger (3.3)
+  - XLPagerTabStrip (4.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.2)
+  - AMPopTip (~> 0.10)
+  - Cheetah (~> 0.2)
+  - Compass (~> 1.4)
+  - Crashlytics (~> 3.7)
+  - Dip (~> 4.1)
+  - DrawerController (~> 1.0)
+  - Fabric (~> 1.6)
+  - FontBlaster (~> 2.0)
+  - Gifu (~> 1.0)
+  - Hue (~> 1.0)
+  - InfiniteCollectionView (~> 1.0)
+  - JSONWebToken (~> 1.4)
+  - Kingfisher (~> 2.1.0)
+  - Moya/RxSwift (~> 6.1)
+  - MYNStickyFlowLayout (~> 0.1)
+  - Nimble (~> 3.1)
+  - NSObject+Rx (~> 1.2)
+  - NYTPhotoViewer (~> 1.1)
+  - Popover (~> 0.9)
+  - Proposer (~> 0.7)
+  - PySwiftyRegex (~> 0.2)
+  - Quick (~> 0.9)
+  - ReachabilitySwift (~> 2.3)
+  - Reusable (~> 2.2)
+  - RxCocoa (~> 2.3)
+  - RxDataSources (= 0.6.1)
+  - RxSwift (~> 2.3)
+  - StatefulViewController (~> 1.0)
+  - SteviaLayout (~> 2.1)
+  - STZPopupView (~> 1.0)
+  - Sugar (~> 1.0)
+  - SwiftDate (~> 3.0)
+  - SwiftyUserDefaults (~> 2.0)
+  - Tactile (~> 1.1)
+  - Toucan (~> 0.5)
+  - Transporter (~> 2.0)
+  - Unbox (~> 1.3)
+  - VideoSplashKit (~> 1.1)
+  - Whisper (~> 2.0)
+  - XCDYouTubeKit (~> 2.5)
+  - XCGLogger (~> 3.2)
+  - XLPagerTabStrip (~> 4.0)
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  AMPopTip: 0788a9452806049e3aa0d6d09324606fc41ea646
+  Cheetah: 5680670356658a44608f2d5f601f879723eaa4b2
+  Compass: f4b8c37f9b315f0ee4f5e4f71888c54c92992d5d
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  CryptoSwift: 25b5aff3f260967391f8fff2e9abe4254d2c6fd5
+  Dip: 4090cc687fbd302787e485a153ca43de044689ca
+  DrawerController: 8fd56e6238399a08c4af054fbea0ef8669cd81f3
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FontBlaster: c27ade4ad797400dec05221a54efa121c12ce079
+  Gifu: 0eab1ca24a4adbd949338bcb71a8556748cb2d28
+  Hue: ed6781be844b58b2a38150cfd4bf24c33449faf8
+  InfiniteCollectionView: ced6aa35ae8b65cacb8d37b003683b19f68e8e69
+  JSONWebToken: 6c8968ace6b60b2e6156a7bbe5019fd9b5ff9b5a
+  Kingfisher: 3ac09acad75a25ab22f6d7cef3de10d61dd4792d
+  Moya: f7a4044719381cc6299f9ad3e0ef05f426f0557b
+  MYNStickyFlowLayout: 64d0c409bd1ad43312485c63bc82e32f038e8fbc
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  NSObject+Rx: 5d032a7f161602dec6b82dcf12731e91ce15b8da
+  NYTPhotoViewer: e80e8767f3780d2df37c6f72cbab15d6c7232911
+  Popover: e64ef6d6f6e98c1c5c5aceedf1d1b9e6fd7375d7
+  Proposer: 231565a8b6bbb1816f3670d6471e6a84e582c80c
+  PySwiftyRegex: 78f989c59ee3bec812f9dc980b3723d60d0e5dca
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+  ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+  Result: 9e75e1111c774c6ac594e14907b15057053a7959
+  Reusable: 4a86b0fa0eefbe3126675617a7e921b673d530c1
+  RxCocoa: e1b1562e57a554d0fb2aabf9d71b637f177257c7
+  RxDataSources: f201802aa904bcbc17c38b82e92f282df401a0ce
+  RxSwift: 402b41a50e922a0368fc14cb3bc9f4427920e8ae
+  StatefulViewController: 396f6d25676680a5c0503143cca55be23ab8c362
+  SteviaLayout: 06ea561e2efae84f2862fcd5d6790148dd56fb87
+  STZPopupView: 4eb11a72c71d2942e23a4444d1bde40e563702e3
+  Sugar: bed396c924fd089feee7c780778cca2a124f580c
+  SwiftDate: 971f8b9394f664f2226b9c3ab64e801a7291c612
+  SwiftyUserDefaults: e7c8197a9d4068702e7f2406a968cae413b8de27
+  Tactile: 901bfcaeaddffe674039559740cd19cbb8584905
+  Toucan: 0519c341148252ae114c5a657d2a85bb9ada9e40
+  Transporter: a37a287f3b23cea53c61e4d856e8234da74ace63
+  Unbox: c93120a1096fd0b6dab043d82919ac66b81ee1a2
+  VideoSplashKit: 0aa63d0bb37c5bd357de3e6a2a13dea5acad4d66
+  Whisper: 18b574de21a089c0d664b115f26e0d9ccbbadbab
+  XCDYouTubeKit: bb81db52d5539f8f34c4081f344980ef38f4644d
+  XCGLogger: d6e196e78940ff6daab17d6917107876f973fa31
+  XLPagerTabStrip: 5aee1990f16ae04b7285fe83befca7dbb259ec57
+
+PODFILE CHECKSUM: ff5b0de7fc2023cfa24ecc5c794e9128da7a07ee
+
+COCOAPODS: 1.0.0

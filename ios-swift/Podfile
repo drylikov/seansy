@@ -1,0 +1,71 @@
+source 'https://github.com/CocoaPods/Specs'
+
+platform :ios, '8.0'
+
+use_frameworks!
+inhibit_all_warnings!
+
+abstract_target 'SeansyCommon' do
+  pod 'Alamofire', '~> 3.2'
+  pod 'Dip', '~> 4.1'
+  pod 'Hue', '~> 1.0'
+  pod 'JSONWebToken', '~> 1.4'
+  pod 'Moya/RxSwift', '~> 6.1'
+  pod 'NSObject+Rx', '~> 1.2'
+  pod 'RxCocoa', '~> 2.3'
+  pod 'RxSwift', '~> 2.3'
+  pod 'SwiftDate', '~> 3.0'
+  pod 'SwiftyUserDefaults', '~> 2.0'
+  pod 'Unbox', '~> 1.3'
+  pod 'XCGLogger', '~> 3.2'
+
+  target 'Seansy' do
+    pod 'AMPopTip', '~> 0.10'
+    pod 'Cheetah', '~> 0.2'
+    pod 'Compass', '~> 1.4'
+    pod 'Crashlytics', '~> 3.7'
+    pod 'DrawerController', '~> 1.0'
+    pod 'Fabric', '~> 1.6'
+    pod 'FontBlaster', '~> 2.0'
+    pod 'Gifu', '~> 1.0'
+    pod 'InfiniteCollectionView', '~> 1.0'
+    pod 'Kingfisher', '~> 2.1.0'
+    pod 'MYNStickyFlowLayout', '~> 0.1'
+    pod 'NYTPhotoViewer', '~> 1.1'
+    pod 'Popover', '~> 0.9'
+    pod 'Proposer', '~> 0.7'
+    pod 'PySwiftyRegex', '~> 0.2'
+    pod 'ReachabilitySwift', '~> 2.3'
+    pod 'Reusable', '~> 2.2'
+    pod 'RxDataSources', '0.6.1'
+    pod 'StatefulViewController', '~> 1.0'
+    pod 'SteviaLayout', '~> 2.1'
+    pod 'STZPopupView', '~> 1.0'
+    pod 'Sugar', '~> 1.0'
+    pod 'Tactile', '~> 1.1'
+    pod 'Toucan', '~> 0.5'
+    pod 'Transporter', '~> 2.0'
+    pod 'VideoSplashKit', '~> 1.1'
+    pod 'Whisper', '~> 2.0'
+    pod 'XCDYouTubeKit', '~> 2.5'
+    pod 'XLPagerTabStrip', '~> 4.0'
+  end
+
+  target 'SeansyWidget'
+
+  target 'SeansyTests' do
+    pod 'Quick', '~> 0.9'
+    pod 'Nimble', '~> 3.1'
+  end
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.name == "Sugar" || target.name == "Hue"
+      target.build_configurations.each do |config|
+        config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'YES'
+      end
+    end
+  end
+end

@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": "semistandard",
+  "rules": {
+    "max-len": [2, 80, 2],
+    "prefer-arrow-callback": 2,
+    "arrow-parens": [2, "as-needed"],
+    "space-before-function-paren": [2, "never"]
+  }
+}

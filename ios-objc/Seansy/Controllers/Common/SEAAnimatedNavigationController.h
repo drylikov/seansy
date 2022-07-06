@@ -1,0 +1,2 @@
+@interface SEAAnimatedNavigationController : UINavigationController
+@end

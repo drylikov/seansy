@@ -1,0 +1,104 @@
+{
+  "directors": [
+                "Тим Миллер"
+                ],
+  "synopsis": "Уэйд Уилсон — наёмник. Будучи побочным продуктом программы вооружённых сил под названием «Оружие X», Уилсон приобрёл невероятную силу, проворство и способность к исцелению. Но страшной ценой: его клеточная структура постоянно меняется, а здравомыслие сомнительно. Всё, чего Уилсон хочет, — это держаться на плаву в социальной выгребной яме. Но течение в ней слишком быстрое.",
+  "timeCreated": "2016-02-08T05:03:26.375Z",
+  "title": "Дэдпул",
+  "_id": "56b8219e948795977a4023d2",
+  "stills": [
+             "http://avatars.mds.yandex.net/get-kino-vod-films-gallery/34144/2a00000152fe91e76838373b1765cad36163/x538",
+             "http://avatars.mds.yandex.net/get-kino-vod-films-gallery/27707/2a00000152fe91e3cb6543ef37cbf1883846/x538",
+             "http://avatars.mds.yandex.net/get-kino-vod-films-gallery/27707/2a00000152fe91e0bfc284c0327911509d61/x538",
+             "http://avatars.mds.yandex.net/get-kino-vod-films-gallery/27707/2a00000152fe91de564afde1e15ed4ad499b/x538",
+             "http://avatars.mds.yandex.net/get-kino-vod-films-gallery/27707/2a00000152fe91db797668f2871f6bb4c007/x538",
+             "http://avatars.mds.yandex.net/get-kino-vod-films-gallery/27707/2a00000152fe91d74615a2c512798bc74eca/x538",
+             "http://avatars.mds.yandex.net/get-kino-vod-films-gallery/34144/2a00000152fe91d46dd25ca6773be13130c7/x538",
+             "http://avatars.mds.yandex.net/get-kino-vod-films-gallery/28788/2a00000152fe91d17618e0831cfc5fb03924/x538",
+             "http://avatars.mds.yandex.net/get-kino-vod-films-gallery/28788/2a00000152fe91cd492bf4187c51623957e6/x538",
+             "http://avatars.mds.yandex.net/get-kino-vod-films-gallery/28788/2a00000152fe91c5d1c06f46d53acfed43c5/x538"
+             ],
+  "year": 2016,
+  "cast": [
+           {
+           "name": "Райан Рейнольдс",
+           "photoUrl": "http://avatars.mds.yandex.net/get-kino-vod-persons-gallery/69229/2a00000151d9b1e30ebf207cc2783424dda0/184x"
+           },
+           {
+           "name": "Морена Баккарин",
+           "photoUrl": "http://avatars.mds.yandex.net/get-kino-vod-persons-gallery/69229/2a00000151ce2ef7205fea29f96b4f299365/184x"
+           },
+           {
+           "name": "Джина Карано",
+           "photoUrl": "http://avatars.mds.yandex.net/get-kino-vod-persons-gallery/27482/2a00000151d734eee05c525d5fd864170a3c/184x"
+           },
+           {
+           "name": "ТиДжей Миллер",
+           "photoUrl": "http://avatars.mds.yandex.net/get-kino-vod-persons-gallery/34142/2a00000151d0821193d67da5aa189e843bae/184x"
+           },
+           {
+           "name": "Эд Скрейн",
+           "photoUrl": "http://avatars.mds.yandex.net/get-kino-vod-persons-gallery/28859/2a00000151d3f8a4057c40cfc796d43e7413/184x"
+           },
+           {
+           "name": "Стефан Капичич",
+           "photoUrl": "http://avatars.mds.yandex.net/get-kino-vod-persons-gallery/69229/2a00000151cff5a3b17dceeee47ac013ed42/184x"
+           },
+           {
+           "name": "Рэйчел Шин",
+           "photoUrl": "http://avatars.mds.yandex.net/get-kino-vod-persons-gallery/69229/2a00000151ce4595e04beaf822dd0d2d6691/184x"
+           },
+           {
+           "name": "Брианна Хилдебранд",
+           "photoUrl": "http://avatars.mds.yandex.net/get-kino-vod-persons-gallery/69229/2a00000151d9b41938f669d4d1e2df6a9d1c/184x"
+           },
+           {
+           "name": "Стэн Ли",
+           "photoUrl": "http://avatars.mds.yandex.net/get-kino-vod-persons-gallery/34142/2a00000151d25d3fc45838373f2a0f3810f7/184x"
+           },
+           {
+           "name": "Тэйлор Хиксон",
+           "photoUrl": "http://avatars.mds.yandex.net/get-kino-vod-persons-gallery/69229/2a00000151d1bd09838aba6b3e7a7506a061/184x"
+           }
+           ],
+  "screenwriters": [
+                    "Ретт Риз",
+                    "Пол Верник"
+                    ],
+  "genres": [
+             "комедия",
+             "приключения",
+             "боевик",
+             "фантастика"
+             ],
+  "backdropUrl": "http://avatars.mds.yandex.net/get-kino-vod-films-gallery/33804/2a000001517251a7a7d4db27ac8f7d0d7d23/920x460",
+  "ratings": {
+    "kinopoisk": 8,
+    "rtAudience": 94,
+    "rtCritics": 83,
+    "imdb": 8.6,
+    "metacritic": 65
+  },
+  "bonusScene": {
+    "afterCredits": true,
+    "duringCredits": true
+  },
+  "releaseDate": "2016-02-11T00:00:00.000Z",
+  "timeUpdated": "2016-02-21T21:00:33.272Z",
+  "ageRating": 18,
+  "runtime": 108,
+  "popularity": 1,
+  "trailers": [
+             {
+               "youtubeId": "6dr-eeegw4g"
+               }
+               ],
+  "kinopoiskId": 462360,
+  "countries": [
+                "США",
+                "Канада"
+                ],
+  "originalTitle": "Deadpool",
+  "posterUrl": "http://avatars.mds.yandex.net/get-kino-vod-films-gallery/34144/2a0000015169667a1a7a9dc4fb854adb9fb1/x538",
+  "status": "nowPlaying"
+}

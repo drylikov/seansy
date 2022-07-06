@@ -1,0 +1,236 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (3.2.0)
+  - AMPopTip (0.10.2)
+  - Analytics/Core-iOS (2.0.17):
+    - TRVSDictionaryWithCaseInsensitivity (= 0.0.2)
+  - Analytics/Segmentio (2.0.17):
+    - Analytics/Core-iOS
+  - ARChromeActivity (1.0.5)
+  - Argo (2.2.0)
+  - AYSlidingPickerView (0.1.3)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - Curry (1.4.0)
+  - DAKeyboardControl (2.4.0)
+  - DeviceUtil (1.3.5)
+  - Doppelganger (2.0.0)
+  - EUMTouchPointView (0.1.0)
+  - Fabric (1.6.6)
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - GTMNSStringHTMLAdditions (0.2.1)
+  - KSCrash/no-arc (0.0.9)
+  - KSCrash/Recording (0.0.9):
+    - KSCrash/no-arc
+  - KSCrash/Reporting/Filters/AppleFmt (0.0.9):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Base (0.0.9):
+    - KSCrash/Recording
+  - LGFilterView (1.0.3)
+  - MMParallaxCell (1.2)
+  - Moya (6.1.3):
+    - Moya/Core (= 6.1.3)
+  - Moya-Argo/Core (1.0.0):
+    - Argo
+    - Moya
+  - Moya-Argo/RxSwift (1.0.0):
+    - Moya-Argo/Core
+    - Moya/RxSwift
+  - Moya-ObjectMapper/Core (1.1.5):
+    - Moya (~> 6.1.3)
+    - ObjectMapper (~> 1.1.1)
+  - Moya-ObjectMapper/RxSwift (1.1.5):
+    - Moya-ObjectMapper/Core
+    - Moya/RxSwift (~> 6.1.3)
+    - RxSwift (~> 2.1.0)
+  - Moya/Core (6.1.3):
+    - Alamofire (~> 3.0)
+    - Result (~> 1.0)
+  - Moya/RxSwift (6.1.3):
+    - Moya/Core
+    - RxSwift (~> 2.0)
+  - MYNStickyFlowLayout (0.1.2)
+  - Nimble (3.1.0)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - NYTPhotoViewer (0.1.2)
+  - ObjectMapper (1.1.5)
+  - Ottran (1.0.2)
+  - protobuf-c (1.0.1)
+  - Quick (0.9.1)
+  - Reachability (3.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - Realm (0.98.2):
+    - Realm/Headers (= 0.98.2)
+  - Realm/Headers (0.98.2)
+  - RealmSwift (0.98.2):
+    - Realm (= 0.98.2)
+  - Result (1.0.2)
+  - RxSwift (2.1.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SimulatorStatusMagic (1.7)
+  - SVWebViewController (1.0)
+  - TRVSDictionaryWithCaseInsensitivity (0.0.2)
+  - TUSafariActivity (1.0.4)
+  - UICollectionViewLeftAlignedLayout (1.0.2)
+  - UITextView+Placeholder (1.1.1)
+  - XCDYouTubeKit (2.5.1)
+  - YandexMobileMetrica (2.3.0):
+    - FMDB (~> 2.2)
+    - KSCrash/Recording (~> 0.0.5)
+    - KSCrash/Reporting/Filters/AppleFmt (~> 0.0.5)
+    - protobuf-c (~> 1.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6)
+  - AMPopTip (~> 0.9)
+  - Analytics/Segmentio (~> 2.0)
+  - ARChromeActivity (from `https://github.com/yenbekbay/ARChromeActivity.git`)
+  - AYSlidingPickerView (~> 0.1)
+  - CocoaLumberjack (~> 2.2)
+  - Crashlytics (~> 3.4)
+  - Curry (~> 1.4.0)
+  - DAKeyboardControl (~> 2.4)
+  - DeviceUtil (~> 1.2)
+  - Doppelganger (from `https://github.com/yenbekbay/Doppelganger.git`)
+  - EUMTouchPointView
+  - Fabric (~> 1.6)
+  - GTMNSStringHTMLAdditions (~> 0.2)
+  - LGFilterView (~> 1.0.3)
+  - MMParallaxCell (~> 1.2)
+  - Moya-Argo/RxSwift (~> 1.0.0)
+  - Moya-ObjectMapper/RxSwift (~> 1.1.5)
+  - Moya/RxSwift (~> 6.1.3)
+  - MYNStickyFlowLayout (~> 0.1)
+  - Nimble (~> 3.1.0)
+  - NJKWebViewProgress (from `https://github.com/yenbekbay/NJKWebViewProgress.git`)
+  - NYTPhotoViewer (from `https://github.com/yenbekbay/NYTPhotoViewer.git`)
+  - Ottran (~> 1.0.2)
+  - Quick (~> 0.9.1)
+  - Reachability (~> 3.2)
+  - ReactiveCocoa (~> 2.4)
+  - RealmSwift (~> 0.98.2)
+  - SDWebImage (~> 3.7)
+  - SimulatorStatusMagic
+  - SVWebViewController (~> 1.0)
+  - TUSafariActivity (~> 1.0)
+  - UICollectionViewLeftAlignedLayout (~> 1.0)
+  - UITextView+Placeholder (~> 1.1)
+  - XCDYouTubeKit (~> 2.3)
+  - YandexMobileMetrica (~> 2.1)
+
+EXTERNAL SOURCES:
+  ARChromeActivity:
+    :git: https://github.com/yenbekbay/ARChromeActivity.git
+  Doppelganger:
+    :git: https://github.com/yenbekbay/Doppelganger.git
+  NJKWebViewProgress:
+    :git: https://github.com/yenbekbay/NJKWebViewProgress.git
+  NYTPhotoViewer:
+    :git: https://github.com/yenbekbay/NYTPhotoViewer.git
+
+CHECKOUT OPTIONS:
+  ARChromeActivity:
+    :commit: 78df19cfa68806e62ca5c3e7b47fb56b9b0e17f4
+    :git: https://github.com/yenbekbay/ARChromeActivity.git
+  Doppelganger:
+    :commit: 06d5cfae1c12eebf1dda602ab9d892d8a50493e5
+    :git: https://github.com/yenbekbay/Doppelganger.git
+  NJKWebViewProgress:
+    :commit: 035a3cf0fe64e3161f1373cb3e1dcbb7bf0c2dad
+    :git: https://github.com/yenbekbay/NJKWebViewProgress.git
+  NYTPhotoViewer:
+    :commit: 608adeb48110a78e525dc24d7c5740d268569366
+    :git: https://github.com/yenbekbay/NYTPhotoViewer.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Alamofire: 4da478599fccddff361205c8929333d7fe18dceb
+  AMPopTip: 0788a9452806049e3aa0d6d09324606fc41ea646
+  Analytics: 51d6163cb568c8ede69f2b92ef4779d91e1524e2
+  ARChromeActivity: 6905f1201ea0e9f7d601ad2254612b2cd74ebc90
+  Argo: 4f52a32b4cd913c204e5a45f420b3fccad3e3f24
+  AYSlidingPickerView: 1094ee566ea3870af4e2955359720da7c7beb211
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  Curry: 294533187eedbf52db60a1e70c29b4f5c9f621c0
+  DAKeyboardControl: 9d9bca22a5cc3c1d3cc61e24fbd208c3e84a3d2d
+  DeviceUtil: e5fe3663e4b9fc4c357ce8bcf1db258a17751f5c
+  Doppelganger: b99e6956de1b4d015cef5fc2fcc24f954f0ee93f
+  EUMTouchPointView: 1c78c09726d22577b933444b42447ecfc636148b
+  Fabric: 1abc1e59f11fa39ede6f690ef7309d8563e3ec59
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  GTMNSStringHTMLAdditions: 4bfc402b1b17165360728083156cae0a74ecb308
+  KSCrash: 2ca11262cd88571992ada7861639a6eb224c6c2a
+  LGFilterView: 97ac7330c74132ed06fd550e14d91516a1cef155
+  MMParallaxCell: 9c9045097743b725076c38ed2c53e3790e90bd14
+  Moya: 26b290a8d675c167ea6229ba08e07dce562265a5
+  Moya-Argo: e204aff3526524596f7ee5de78d338320973b141
+  Moya-ObjectMapper: 7522e5f2afaa515122fbc2fc61fddba59f01b26a
+  MYNStickyFlowLayout: 64d0c409bd1ad43312485c63bc82e32f038e8fbc
+  Nimble: 79d40f4d69d47314229bbabacaa02b8838c779b9
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  NYTPhotoViewer: 9daf33d659ed5c4fabc3691f419a0aaf902c2c61
+  ObjectMapper: 528b1a6677a6acac7747edd508576983e76a9148
+  Ottran: c757c5f3abdc058d4f249b0a56921329597e0201
+  protobuf-c: 87088f5a154d5293d9c75b44fc48b497056f4e76
+  Quick: a5221fc21788b6aeda934805e68b061839bc3165
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  Realm: 88a147fe04b8f07191a676b15c779b2b448991de
+  RealmSwift: 9907c7415b3e19ef2ab9f89878fc890f03f93aea
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+  RxSwift: 110fb07f81c17c2c3b3254d168363057b1880d18
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SimulatorStatusMagic: 46c90a12f73abeda6d7c16876e1e0998b6ca5f4f
+  SVWebViewController: c36dda7326e81fcae0abf5d02bf7bbf7e41be901
+  TRVSDictionaryWithCaseInsensitivity: 51d2ccf52c6d645d27b63467a98fa02c556e01b0
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+  UICollectionViewLeftAlignedLayout: 830bf6fa5bab9f9b464f62e3384f9d2e00b3c0f6
+  UITextView+Placeholder: a6fc3e0378f3870036ec562a7537cbf6dbae4bf6
+  XCDYouTubeKit: ee78997dc92d1055f11459d95c492dae1dba909d
+  YandexMobileMetrica: 5a4637b5c4473ff98b1ff266063ff6013f01d1fa
+
+COCOAPODS: 0.39.0

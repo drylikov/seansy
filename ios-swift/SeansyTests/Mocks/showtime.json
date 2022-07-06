@@ -1,0 +1,14 @@
+{
+  "_id": "56c944af7828ffc6269ab1d7",
+  "prices": {
+    "adult": 1200,
+    "student": 1000
+  },
+  "time": "2016-02-21T07:10:00.000Z",
+  "format": "Dolby Atmos",
+  "language": "англ. яз",
+  "ticketonId": "636085",
+  "cinemaId": "56c417a363f1caeb4434526c",
+  "movieId": "56b8219e948795977a4023d2",
+  "timeCreated": "2016-02-21T05:01:34.964Z"
+}

@@ -1,0 +1,3 @@
+@interface SEAWidgetViewController : UIViewController
+
+@end
